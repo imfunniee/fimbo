@@ -51,6 +51,7 @@ body,html {
     height:80vh;
     background:linear-gradient(0deg,rgba(0,0,0,1),rgba(0,0,0,0)),url("https://images.unsplash.com/photo-1494587351196-bbf5f29cff42?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&&w=1351&q=80") center center fixed;
     background-size:100% auto;
+    background-repeat:no-repeat;
     color:white;
     display:flex;
     justify-content:center;
@@ -90,6 +91,46 @@ body,html {
 #contact {
     margin:4vh 0px !important;
     padding:2vh 0px !important;
+}
+#contact form {
+    width:100%;
+}
+#contact form input {
+    width:46%;
+    margin:20px 1%;
+    background:transparent;
+    border:0px;
+    border-bottom:2px solid rgba(255,255,255,0.5);
+    padding:8px 10px;
+    font-family: 'Comfortaa', cursive;
+    font-size:18px;
+    transition:0.4s ease-in-out;
+    color:#fff;
+}
+#contact form textarea {
+    width:96%;
+    margin:20px 1%;
+    padding:8px 10px;
+    border:0px;
+    border-bottom:2px solid rgba(255,255,255,0.5);
+    padding:8px 10px;
+    font-family: 'Comfortaa', cursive;
+    font-size:18px;
+    background:transparent;
+    resize:none;
+    transition:0.4s ease-in-out;
+    color:#fff;
+}
+#contact form input:focus {
+    outline:none;
+    border-bottom:2px solid rgba(255,255,255,1);
+}
+#contact form textarea:focus {
+    outline:none;
+    border-bottom:2px solid rgba(255,255,255,1);
+}
+::placeholder {
+    color:#fff;
 }
 .btn_one {
     color:white;
@@ -134,7 +175,7 @@ body,html {
 .btn_social {
     font-size:18px;
     color:#fff;
-    margin:40px 20px !important;
+    margin:40px 20px;
     padding:15px 18px;
     border-radius:50%;
     background:#000;
@@ -145,24 +186,48 @@ body,html {
     background:#fff;
     cursor:pointer;
 }
-@media (max-width: 600px){
+@media (max-width: 900px){
     #header {
         width:94%;
-        padding:10% 3%;
+        padding:15% 3%;
     }
     #title {
         font-size:30px;
     }
     #links {
-        margin:20px 0px;
+        margin:30px 0px;
+    }
+    #links a {
+        margin:0px;
     }
     #middle {
         width:100%;
         border-radius:0px;
-        height:90vh;
+        height:80vh;
+        background-size:cover;
     }
     #tagline {
-        width:70%;
+        width:90%;
+        font-size:30px;
+    }
+    .btn_one {
+        font-size:14px;
+        padding:8px 20px;
+    }
+    .btn_two {
+        font-size:14px;
+        padding:8px 20px;
+    }
+    #contact form input {
+        width:92%;
+    }
+    #contact form textarea {
+        width:92%;
+    }
+    .btn_social {
+        font-size:14px;
+        margin:10px;
+        padding:10px 11px;
     }
 }
 button:focus {
