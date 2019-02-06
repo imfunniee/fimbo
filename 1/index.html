@@ -5,14 +5,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>yourname.</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
     <link href="https://fonts.googleapis.com/css?family=Comfortaa:700" rel="stylesheet">
     <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
     <link rel="stylesheet" href="index.css">
 </head>
 <body>
-    <div id="header">
+    <div id="loading">
+        <div id="spinner"></div>
+    </div>
+    <div id="header" class="animated slideInDown" style="animation-delay:1.8s;">
     <div id="title">yourname.</div><br>
     <div id="links">
         <a href="#skills">skills</a>
@@ -23,7 +26,7 @@
 
     <center>
     <div id="middle">
-        <div id="tagline">
+        <div id="tagline" class="animated zoomIn" style="animation-delay:1.8s;">
             if you're reading this, that mean's you can read<br>
             <button class="btn_one">haha ok</button>
         </div>
@@ -74,6 +77,9 @@
                     <a class="btn_social"><i class="fab fa-dribbble"></i></a>
                  </div>   
              </div>
+    </div>
+    <div id="footer">
+        made on earth by a human <br><br> <a href="https://imfunniee.github.io">imfunny</a>
     </div>
 <script src="index.js" type="text/javascript"></script>
 </body>
