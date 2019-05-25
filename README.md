@@ -1,6 +1,6 @@
 <img src="https://raw.githubusercontent.com/imfunniee/imfunniee.github.io/master/fimbo/img/fimbo.png"/>
 
-# Fimbo ![GitHub stars](https://img.shields.io/github/stars/imfunniee/fimbo.svg?style=social) ![GitHub All Releases](https://img.shields.io/github/downloads/imfunniee/fimbo/total.svg?style=popout-square) ![GitHub repo size](https://img.shields.io/github/repo-size/imfunniee/fimbo.svg?style=popout-square) 
+# Fimbo ![GitHub stars](https://img.shields.io/github/stars/imfunniee/fimbo.svg?style=social) ![GitHub All Releases](https://img.shields.io/github/downloads/imfunniee/fimbo/total.svg?style=popout-square) ![GitHub repo size](https://img.shields.io/github/repo-size/imfunniee/fimbo.svg?style=popout-square) ![GitHub](https://img.shields.io/github/license/imfunniee/fimbo.svg?style=popout-square) 
 
 ### Customizable, Free to use, Mobile Responsive Templates
 
@@ -10,6 +10,10 @@ Everyone needs a website to express themselves so i made free website templates.
 
 Have Fun. 😄
 
+
+### Add your template
+
+If you have a template you want to be on this repo create a PR
 
 ### Support
 
