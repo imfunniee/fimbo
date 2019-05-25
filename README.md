@@ -14,9 +14,3 @@ Have Fun. 😄
 ### Add your template
 
 If you have a template you want to be on this repo create a PR
-
-### Support
-
-Loved My Work? Support me by buying me a Coffee ☕
-
-<a href="https://www.buymeacoffee.com/imfunniee" target="_blank"><img src="https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png" alt="Buy Me A Coffee" style="height: auto !important;width: auto !important;">
