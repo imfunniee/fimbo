@@ -6,7 +6,7 @@
 
 See them in action [here](https://imfunniee.github.io/fimbo)
 
-Everyone needs a website to express themeselves so i made free website templates. All you need to do is download them and cutmoize them according to your need.
+Everyone needs a website to express themselves so i made free website templates. All you need to do is download them and customize them according to your need.
 
 Have Fun. 😄
 
