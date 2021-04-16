@@ -33,7 +33,7 @@ var pJS = function(tag_id, params){
         type: 'circle',
         stroke: {
           width: 0,
-          color: '#17A1CF'
+          color: '#13C1FB'
         },
         polygon: {
           nb_sides: 5
@@ -292,9 +292,9 @@ var pJS = function(tag_id, params){
     }
     else if(color.value == 'random'){
       this.color.rgb = {
-        r: (Math.floor(Math.random() * (195 - 0 + 1)) + 0),
-        g: (Math.floor(Math.random() * (195 - 0 + 1)) + 0),
-        b: (Math.floor(Math.random() * (195 - 0 + 1)) + 0)
+        r: (Math.floor(Math.random() * (19 - 0 + 1)) + 0),
+        g: (Math.floor(Math.random() * (19 - 0 + 1)) + 0),
+        b: (Math.floor(Math.random() * (19 - 0 + 1)) + 0)
       }
     }
     else if(typeof(color.value) == 'string'){

@@ -291,6 +291,25 @@ body {
 	color: #fff;
 }
 
+#work_container {
+  overflow-y: scroll;
+}
+
+.works-desc, .works-img {
+  width: 50%;
+  padding: .25rem;
+}
+
+.works-img img {
+  width: 85%;
+  display: block;
+  margin: auto;
+}
+
+#work_container section {
+  display: flex;
+}
+
 @media (max-width: 800px){
     #about {
         display:none;
