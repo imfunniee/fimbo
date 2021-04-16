@@ -1,0 +1,108 @@
+/* line 9, ../../../../../Users/mj/Documents/coding/port-for-leo-too/scss/port-for-leo.scss */
+#loading {
+  background: #67787E;
+}
+
+/* line 13, ../../../../../Users/mj/Documents/coding/port-for-leo-too/scss/port-for-leo.scss */
+#spinner {
+  border-bottom: 12px solid #17A1CF;
+}
+
+/* line 17, ../../../../../Users/mj/Documents/coding/port-for-leo-too/scss/port-for-leo.scss */
+.box1 {
+  background: #17A1CF;
+}
+
+/* line 20, ../../../../../Users/mj/Documents/coding/port-for-leo-too/scss/port-for-leo.scss */
+.box2 {
+  background: #17A1CF;
+}
+
+/* line 24, ../../../../../Users/mj/Documents/coding/port-for-leo-too/scss/port-for-leo.scss */
+#middle h1 {
+  color: #24282A;
+  text-shadow: 3px 2px 3px #5555556b;
+}
+
+/* line 29, ../../../../../Users/mj/Documents/coding/port-for-leo-too/scss/port-for-leo.scss */
+#middle h2 {
+  color: #24282A;
+}
+
+/* line 33, ../../../../../Users/mj/Documents/coding/port-for-leo-too/scss/port-for-leo.scss */
+.social:hover {
+  color: #E8F7FC;
+}
+
+/* line 37, ../../../../../Users/mj/Documents/coding/port-for-leo-too/scss/port-for-leo.scss */
+.container {
+  background: #17A1CF;
+}
+
+/* line 41, ../../../../../Users/mj/Documents/coding/port-for-leo-too/scss/port-for-leo.scss */
+.btn_one:hover {
+  color: #17A1CF;
+}
+
+/* line 45, ../../../../../Users/mj/Documents/coding/port-for-leo-too/scss/port-for-leo.scss */
+.btn_two {
+  color: #17A1CF;
+}
+
+/* line 49, ../../../../../Users/mj/Documents/coding/port-for-leo-too/scss/port-for-leo.scss */
+#footer a {
+  color: #24282A;
+}
+
+/* line 53, ../../../../../Users/mj/Documents/coding/port-for-leo-too/scss/port-for-leo.scss */
+#footer a:hover {
+  color: #17A1CF;
+}
+
+/* line 57, ../../../../../Users/mj/Documents/coding/port-for-leo-too/scss/port-for-leo.scss */
+::-webkit-scrollbar-thumb {
+  background: #17A1CF;
+}
+
+/* line 61, ../../../../../Users/mj/Documents/coding/port-for-leo-too/scss/port-for-leo.scss */
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(23, 161, 207, 0.8);
+}
+
+/* line 65, ../../../../../Users/mj/Documents/coding/port-for-leo-too/scss/port-for-leo.scss */
+::selection {
+  background: #17A1CF;
+}
+
+/* line 69, ../../../../../Users/mj/Documents/coding/port-for-leo-too/scss/port-for-leo.scss */
+#about, #work, #contact {
+  color: #24282A;
+}
+
+/* line 73, ../../../../../Users/mj/Documents/coding/port-for-leo-too/scss/port-for-leo.scss */
+#about:hover {
+  background: #17A1CF;
+  cursor: pointer;
+  color: #E8F7FC;
+}
+
+/* line 78, ../../../../../Users/mj/Documents/coding/port-for-leo-too/scss/port-for-leo.scss */
+#work:hover {
+  background: #17A1CF;
+  cursor: pointer;
+  color: #E8F7FC;
+}
+
+/* line 83, ../../../../../Users/mj/Documents/coding/port-for-leo-too/scss/port-for-leo.scss */
+#contact:hover {
+  background: #17A1CF;
+  cursor: pointer;
+  color: #E8F7FC;
+}
+
+/* line 89, ../../../../../Users/mj/Documents/coding/port-for-leo-too/scss/port-for-leo.scss */
+.social {
+  color: #24282A;
+}
+
+/*# sourceMappingURL=port-for-leo.css.map */

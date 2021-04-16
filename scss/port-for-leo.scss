@@ -1,0 +1,91 @@
+//color
+$blue: #17A1CF;
+$white: #E8F7FC;
+$gray: #67787E;
+$black: #24282A;
+
+//color stuff
+
+#loading {
+background:$gray;
+}
+
+#spinner {
+  border-bottom:12px solid $blue;
+}
+
+.box1 {
+    background:$blue;
+}
+.box2 {
+    background:$blue;
+}
+
+#middle h1 {
+    color: $black;
+    text-shadow: 3px 2px 3px #5555556b;
+}
+
+#middle h2 {
+  color: $black;
+}
+
+.social:hover {
+      color:$white;
+  }
+
+.container {
+      background:$blue;
+    }
+
+.btn_one:hover {
+        color:$blue;
+      }
+
+.btn_two {
+    color:$blue;
+  }
+
+  #footer a {
+      color:$black;
+  }
+
+  #footer a:hover {
+    color: $blue;
+  }
+
+  ::-webkit-scrollbar-thumb {
+      background:$blue ;
+  }
+
+  ::-webkit-scrollbar-thumb:hover {
+      background: rgba(23, 161, 207,0.8);
+  }
+
+  ::selection {
+  	background: $blue;
+  }
+
+#about, #work, #contact {
+  color: $black;
+}
+
+#about:hover {
+    background:$blue;
+    cursor:pointer;
+    color: $white;
+}
+#work:hover {
+    background:$blue;
+    cursor:pointer;
+    color: $white;
+  }
+#contact:hover {
+    background:$blue;
+    cursor:pointer;
+    color: $white;
+}
+
+.social {
+    color:$black;
+  }
