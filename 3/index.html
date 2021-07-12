@@ -4,12 +4,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>yourname.</title>
+    <title>SPOICAT's PAGE</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
     <link href="https://fonts.googleapis.com/css?family=Comfortaa:700" rel="stylesheet">
     <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
     <link rel="stylesheet" href="index.css">
+    <script src="https://code.iconify.design/1/1.0.7/iconify.min.js"></script>
 </head>
 <body>
     <div id="loading">
@@ -26,27 +27,27 @@
     </div>
     <a id="about" onclick="showabout()" class="animated fadeIn" style="animation-delay:2.2s;">about</a>
     <a id="work" onclick="showwork()" class="animated fadeIn" style="animation-delay:2.2s;">work</a>
-    <a id="contact" onclick="showcontact()" class="animated fadeIn" style="animation-delay:2.2s;">contact</a>
+    <a id="contact" onclick="showcontact()" class="animated fadeIn" style="animation-delay:2.2s;">links</a>
     <div id="middle" class="animated slideInDown" style="animation-delay:2.0s;">
-        <h1>yourname.</h1>
-        <h2>Software Developer / Photographer / Human</h2>
+        <h1>SPOICAT</h1>
+        <h2>Hobbyist GameDev / Likes Pixel Art / Not a robot</h2>
         <div id="menu">
             <a onclick="showabout()">about</a>
             <a onclick="showwork()">work</a>
-            <a onclick="showcontact()">contact</a>
+            <a onclick="showcontact()">links</a>
         </div>
         <table>
                 <tr>
-                    <td class="animated zoomIn" style="animation-delay:2.2s;"><a class="social"><i class="fab fa-facebook"></i></a></td>
-                    <td class="animated zoomIn" style="animation-delay:2.4s;"><a class="social"><i class="fab fa-twitter"></i></a></td>
-                    <td class="animated zoomIn" style="animation-delay:2.6s;"><a class="social"><i class="fab fa-instagram"></i></a></td>
-                    <td class="animated zoomIn" style="animation-delay:2.8s;"><a class="social"><i class="fab fa-dribbble"></i></a></td>
+                    <td onclick="window.open('https://spoicat.itch.io/', '_blank');" class="animated zoomIn" style="animation-delay:2.2s;"><a class="social"><span class="iconify" data-icon="fa-brands:itch-io" data-inline="false"></span></a></td>
+                    <td onclick="window.open('https://github.com/SPOICAT', '_blank');" class="animated zoomIn" style="animation-delay:2.4s;"><a class="social"><i class="fab fa-github"></i></a></td>
                 </tr>
         </table>
     </div>
     <div id="work_container" class="container">
         <div onclick="closework()"><i class="fas fa-angle-right"></i></div>
-        <h1>works.</h1>
+        <h1>works</h1>
+
+        <!--
         <section>
             <h2>work title</h2>
             <p>
@@ -60,6 +61,54 @@
             <button class="btn_one">button 1</button>
             <button class="btn_two">button 2</button>
         </section>
+        -->
+
+        <section>
+            <h2>Up or Down?</h2>
+            <p>
+                <b>Up or Down?</b> is a 2D platformer game where the floor you're touching changes the gravity.
+            </p>
+            <div id="used">
+                <div><i class="fas fa-circle"></i>&nbsp;GDscript</div>
+                <div><i class="fas fa-circle"></i>&nbsp;Godot Engine</div>
+            </div>
+            <p> Platforms: Microsoft Windows and Android </p>
+            <b>Downloadable? Yes</b>
+            <button onclick="window.open('https://spoicat.itch.io/up-or-down', '_blank')" class="btn_one">Download</button>
+            <b>Open Source? Yes too!</b>
+            <button onclick="window.open('https://github.com/SPOICAT/up-or-down', '_blank')" class="btn_two">Source Code</button>
+        </section>
+
+        <section id="avoid-the-block-section">
+            <h2>Avoid the Block</h2>
+            <p>
+                <b>Avoid the Block</b> was the first game I created. It's a simple game where you only have to jump to avoid a red block.
+            </p>
+            <div id="used">
+                <div><i class="fas fa-circle"></i>&nbsp;JavaScript</div>
+                <div><i class="fas fa-circle"></i>&nbsp;CSS3</div>
+                <div><i class="fas fa-circle"></i>&nbsp;HTML5</div>
+            </div>
+            <p> Platform: HTML5 (Requires a keyboard)</p>
+            <b>Playable? Yes, in your browser!</b>
+            <button onclick="window.open('https://spoicat.itch.io/avoid-the-block', '_blank')" class="btn_one">Play Avoid the Block Now</button>
+            <b>Open Source? Yes..</b>
+            <button onclick="window.open('https://github.com/SPOICAT/Avoid-The-Block', '_blank')" class="btn_two">Source Code</button>
+        </section>
+
+        <section>
+            <h2>in-engine-jumper</h2>
+            <p>
+                <b>"in-engine-jumper"</b> is like another version of my first game <a href="#avoid-the-block-section">Avoid the Block</a> but this one is technically an experimental plugin for Godot Game Engine. This game runs inside the game engine itself.
+            </p>
+            <div id="used">
+                <div><i class="fas fa-circle"></i>&nbsp;GDscript</div>
+                <div><i class="fas fa-circle"></i>&nbsp;Godot Engine</div>
+            </div>
+            <b>This could be confusing, if you're interested in knowing more, see the readme.MD file in the </b>
+            <button onclick="window.open('https://github.com/SPOICAT/in-engine-jumper', '_blank')" class="btn_two">Source Code</button>
+        </section>
+
     </div>
     <div id="about_container" class="container">
             <div onclick="closeabout()"><i class="fas fa-angle-left"></i></div>
@@ -67,36 +116,32 @@
             <section>
                 <h2>about me</h2>
                 <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                    I am an Indie Game Developer (Hobbyist) who never likes to stop learning. Of course because there are always things that are new to me.
                 </p>
                 <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                    JavaScript was my first programming language. I haven't mastered it yet. Specially because I originally wanted to make games (and not web) so I gave Godot Game Engine a try and learned GDscript - which is currently the language I'm best at. I currently have only made a few games and even a fewer of them are actually published.
                 </p>
             </section>
             <section>
                 <h2>skills</h2>
                 <p>
-                    i do eveything ;)
+                    I can type. Like this.
                 </p>
             </section>
         </div>
           <div id="contact_container" class="container">
             <div onclick="closecontact()"><i class="fas fa-angle-down"></i></div>
-            <h1>contact.</h1>
+            <h1>links</h1>
             <section>
-                <h2>contact me</h2>
-                <p>
-                    <form>
-                        <input type="text" placeholder="name" required>
-                        <input type="email" placeholder="email" required><br>
-                        <textarea placeholder="your message" required rows="5"></textarea><br>
-                        <button class="btn_one">send</button>
-                    </form> 
-                </p>
+                <h2>links</h2>
+                <p> You can find my published games at: </p>
+                <button class="btn_one" onclick="window.open('https://spoicat.itch.io/', '_blank');">Itch.io</button>
+                <p> Also a developer and interested to see my repositories? </p>
+                <button class="btn_one" onclick="window.open('https://github.com/SPOICAT', '_blank');">Github</button>
             </section>
         </div>
         <div id="footer">
-            made on earth by a human <br> <a href="https://imfunniee.github.io">imfunniee</a>
+            No one reads this!
         </div>
     <script src="index.js" type="text/javascript"></script>
     <script src="particles.js"></script>
