@@ -171,8 +171,8 @@ body {
     color:rgb(255, 50, 50);
 }
 .container {
-    width:90vw;
-    height:90vh;
+    width:100vw;
+    height:100vh;
     padding:5vh 5vw;
     background:rgba(230, 144, 45, 0.938);
     color:#fff;
@@ -253,6 +253,10 @@ body {
     cursor:pointer;
     padding:8px 60px;
 }
+/* .item {
+    width: 200px;
+} */
+
 .container form input {
     width:46%;
     margin:20px 1%;
