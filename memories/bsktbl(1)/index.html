@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml">
     <head>
-        <title>彼記-信仰篇(3)-輸入畫面</title>
+        <title>彼記-信仰篇(2)-輸入畫面</title>
 
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta name="robots" content="noindex, nofollow">
@@ -82,22 +82,46 @@
             .protected__content__btn:hover {
                 background-color: #1C6D36;
             }
+            .btn_two {
+                color:#000;
+                padding:10px 40px;
+                border-radius:50px;
+                border:2px solid rgb(0, 0, 0);
+                font-size:18px;
+                font-family: 'Comfortaa', cursive;
+                font-weight:bold;
+                background:#fff;
+                transition:0.4s ease-in-out;
+                margin:30px 10px;
+            }
+            .btn_two:hover {
+                background:transparent;
+                cursor:pointer;
+                color:#fff;
+            }
 
         </style>
 
     </head>
 
     <body>
+        
+        <table>
+            <tr>
+                <div class="protected">
+                    <div class="protected__alert" data-id="alert">:( 差一點點！</div>
+                    <div class="protected__content">
+                        <h1 class="protected__content__heading">彼記-信仰篇(2)-輸入密碼以解鎖影片</h1>
+                        <h2 class="protected__content__heading">[地點：球場]</h1>
+                        <input class="protected__content__input" data-id="password" type="password" placeholder="password"/>
+                        <button data-id="button" type="button" class="protected__content__btn">提交</button>
+                        <button class="btn_two" onclick="location.href='../index.html'" type="button">帶我到回憶大廳</button>
+                    </div>
+                </div>
+            </tr>
+        </table>
+        
 
-        <div class="protected">
-            <div class="protected__alert" data-id="alert">:( 差一點點！</div>
-            <div class="protected__content">
-                <h1 class="protected__content__heading">彼記-信仰篇(3)-輸入密碼以解鎖影片</h1>
-                <h2 class="protected__content__heading">[地點：球場]</h1>
-                <input class="protected__content__input" data-id="password" type="password" placeholder="password"/>
-                <button data-id="button" type="button" class="protected__content__btn">提交</button>
-            </div>
-        </div>
 
         <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/js-sha1/0.6.0/sha1.min.js"></script>
         <script type="text/javascript">
