@@ -176,6 +176,33 @@ h2 {
     cursor:pointer;
     color:#000;
 }
+.collapsible {
+    color:white;
+    padding:10px 40px;
+    border-radius:50px;
+    border:2px solid #fff;
+    font-size:18px;
+    font-family: 'Comfortaa', cursive;
+    font-weight:bold;
+    background:transparent;
+    transition:0.4s ease-in-out;
+    margin:30px 10px;
+}
+.collapsible:hover {
+    background:white;
+    cursor:pointer;
+    color:#000;
+}
+
+/* Style the collapsible content. Note: hidden by default */
+.content {
+    padding: 0 18px;
+    display: none;
+    overflow: hidden;
+    background-color: #f1f1f1;
+}
+
+
 .project div {
     font-weight:normal;
 }
@@ -263,7 +290,7 @@ h2 {
     text-align:center;
     font-weight:bold;
 }
-#footer a {
+a {
     font-size:18px;
     background-image: linear-gradient(to left, #FF416C 0%, #FF4B2B 100%);
     -webkit-background-clip:text;
