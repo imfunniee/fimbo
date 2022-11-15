@@ -82,6 +82,7 @@ body {
 #middle h1 {
     color:rgb(255, 50, 50);
     font-size:50px;
+    text-shadow: 4px 4px 5px black;
     /* text-decoration-line: underline; */
     text-decoration: underline dotted;
 }
@@ -208,8 +209,14 @@ body {
 }
 .container h1 {
     font-size:60px;
-    text-decoration:underline;
+    text-shadow: 4px 4px 5px black;
+    /* text-decoration:underline; */
 }
+
+.container h2 {
+    color: black;
+}
+
 .container p {
     font-size:21px;
 }
