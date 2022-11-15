@@ -32,26 +32,6 @@ setTimeout(function(){
     },800);
 },1450);
 
-function onScanSuccess(decodedText, decodedResult) {
-  console.log(`Code scanned = ${decodedText}`, decodedResult);
-}
-var html5QrcodeScanner = new Html5QrcodeScanner(
-"qr-reader", { fps: 10, qrbox: 250 });
-html5QrcodeScanner.render(onScanSuccess);
-
-
-// If you want to prefer back camera
-html5QrCode.start({ facingMode: "environment" }, config, qrCodeSuccessCallback);
-
-html5QrCode.stop().then((ignore) => {
-  // QR Code scanning is stopped.
-}).catch((err) => {
-  // Stop failed, handle it.
-});
-
-
-
-
 var coll = document.getElementsByClassName("collapsible");
 var i;
 
@@ -66,3 +46,18 @@ for (i = 0; i < coll.length; i++) {
     }
   });
 }
+
+
+
+var html5QrcodeScanner = new Html5QrcodeScanner(
+  "reader", { fps: 10, qrbox: 250 });
+      
+function onScanSuccess(decodedText, decodedResult) {
+  // Handle on success condition with the decoded text or result.
+  console.log(`Scan result: ${decodedText}`, decodedResult);
+  // ...
+  html5QrcodeScanner.clear();
+  // ^ this will stop the scanner (video feed) and clear the scan area.
+}
+
+html5QrcodeScanner.render(onScanSuccess);
