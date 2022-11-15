@@ -49,15 +49,15 @@ for (i = 0; i < coll.length; i++) {
 
 
 
-var html5QrcodeScanner = new Html5QrcodeScanner(
-  "reader", { fps: 10, qrbox: 250 });
+// var html5QrcodeScanner = new Html5QrcodeScanner(
+//   "reader", { fps: 10, qrbox: 250 });
       
-function onScanSuccess(decodedText, decodedResult) {
-  // Handle on success condition with the decoded text or result.
-  console.log(`Scan result: ${decodedText}`, decodedResult);
-  // ...
-  html5QrcodeScanner.clear();
-  // ^ this will stop the scanner (video feed) and clear the scan area.
-}
+// function onScanSuccess(decodedText, decodedResult) {
+//   // Handle on success condition with the decoded text or result.
+//   console.log(`Scan result: ${decodedText}`, decodedResult);
+//   // ...
+//   html5QrcodeScanner.clear();
+//   // ^ this will stop the scanner (video feed) and clear the scan area.
+// }
 
-html5QrcodeScanner.render(onScanSuccess);
+// html5QrcodeScanner.render(onScanSuccess);

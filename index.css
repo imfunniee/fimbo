@@ -43,7 +43,7 @@ body,html {
 }
 #title {
     font-size:40px;
-    background-image: linear-gradient(to left, #FF416C 0%, #FF4B2B 100%);
+    background-image: linear-gradient(to left, #ffea2bee 0%, #e5ff00ee 100%);
     -webkit-background-clip:text;
     background-clip:text;
     -webkit-text-fill-color: transparent;
@@ -199,7 +199,7 @@ h2 {
     padding: 0 18px;
     display: none;
     overflow: hidden;
-    background-color: #000000;
+    background-color: #f1f1f1;
 }
 
 
