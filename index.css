@@ -73,7 +73,7 @@ body,html {
 #middle {
     width:100%;
     height:80vh;
-    background:linear-gradient(0deg,rgba(0, 0, 0, 0.719),rgba(59, 32, 1, 0.45)),url("https://i.imgur.com/qEpnnqW.jpeg") center center fixed;
+    background:linear-gradient(0deg,rgba(0, 0, 0, 0.945),rgba(78, 42, 1, 0.45)),url("https://i.imgur.com/qEpnnqW.jpeg") center center fixed;
     background-size:100% auto;
     background-repeat:no-repeat;
     color:white;
