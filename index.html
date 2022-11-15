@@ -9,6 +9,7 @@
     <link href="https://fonts.googleapis.com/css?family=Comfortaa:700" rel="stylesheet">
     <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
     <script defer src="https://use.fontawesome.com/releases/v5.0.8/js/brands.js" integrity="sha384-sCI3dTBIJuqT6AwL++zH7qL8ZdKaHpxU43dDt9SyOzimtQ9eyRhkG3B7KMl6AO19" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/html5-qrcode" type="text/javascript"></script>
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
     <link rel="stylesheet" href="index.css">
 </head>
@@ -81,11 +82,20 @@
                         </div>
                     </tr>
                     <tr>
-                        <h2>關於QR Code 掃描程式</h2>
-                        <p>QR Code 的手機條碼掃描程式在 iOS 系統的裝置上</p>
+                        <h2>關於QR二維碼掃描程式</h2>
+                        <p>本次活動有些時候可能會需要請您透過手機掃取QR二維碼～</p>
+                        <p>若是不知道如何讀取QR二維碼的人可以參考以下的使用方式：</p>
                         <ul>
-                            <li><i class="fab fa-apple"></i>&nbsp; iOS 系統裝置上內建於照相程式當中。</li>
-                            <li><i class="fab fa-brands fa-android"></i>&nbsp; iOS 系統裝置上內建於照相程式當中。</li>
+                            <li>新版的<i class="fab fa-apple"></i>iOS與<i class="fab fa-brands fa-android"></i>android系統上，通常已經內建於照相程式當中。</li>
+                            <li>如果您的手機照相應用程式無此功能，那可能表示手機的作業系統版本較舊，那您可以透過以下任何的方式進行掃描：
+                            <ul>
+                                <li>您可以透過網頁瀏覽器至某些有提供掃碼功能的網站（如<a href="https://webqr.com/">webqr</a>），將相機權限提供給網站後即可進行讀取。</li>
+                                <li>也可以透過相關的app，比如至<i class="fab fa-app-store"></i>&nbsp;AppStore或<i class="fab fa-brands fa-google-play"></i>&nbsp;Play商店下載相關應用程式。</li>
+                                <li>如果您的手機上有下載Line，可以透過[主頁]>[加入好友]>[行動掃碼]掃取。</li>
+                                <li>您也可以直接透過以下的嵌入程式進行掃描：</li>
+                                    <div id="qr-reader" style="width: 600px"></div></li>
+                            </ul>
+                            <li>若是手機鏡頭損壞，那可能就需要先請您至<a href="">此連結（未加入連結網址）</a>將條碼存入裝置當中，在透過上述的方式從手機內讀取二維碼。</li>
                         </ul>
                     </tr>
                     <tr>
