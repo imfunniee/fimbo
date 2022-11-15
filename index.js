@@ -40,6 +40,18 @@ var html5QrcodeScanner = new Html5QrcodeScanner(
 html5QrcodeScanner.render(onScanSuccess);
 
 
+// If you want to prefer back camera
+html5QrCode.start({ facingMode: "environment" }, config, qrCodeSuccessCallback);
+
+html5QrCode.stop().then((ignore) => {
+  // QR Code scanning is stopped.
+}).catch((err) => {
+  // Stop failed, handle it.
+});
+
+
+
+
 var coll = document.getElementsByClassName("collapsible");
 var i;
 
