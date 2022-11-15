@@ -82,7 +82,8 @@ body {
 #middle h1 {
     color:rgb(255, 50, 50);
     font-size:50px;
-    text-decoration:underline;
+    /* text-decoration-line: underline; */
+    text-decoration: underline dotted;
 }
 #about {
     width:10vw;
@@ -138,15 +139,15 @@ body {
     border-radius:100px 100px 0px 0px;
 }
 #about:hover {
-    background:rgba(255,50,50,0.9);
+    background:rgba(230, 144, 45, 0.938);
     cursor:pointer;
 }
 #work:hover {
-    background:rgba(255,50,50,0.9);
+    background:rgba(230, 144, 45, 0.938);
     cursor:pointer;
 }
 #contact:hover {
-    background:rgba(255,50,50,0.9);
+    background:rgba(230, 144, 45, 0.938);
     cursor:pointer;
 }
 #middle table {
@@ -172,7 +173,7 @@ body {
     width:90vw;
     height:90vh;
     padding:5vh 5vw;
-    background:rgb(255, 50, 50);
+    background:rgba(230, 144, 45, 0.938);
     color:#fff;
     z-index:9;
     position:fixed;
