@@ -4,6 +4,7 @@ body {
     padding:0px;
     margin:0px;
     background:linear-gradient(0deg,rgba(0,0,0,0.5),rgb(0, 0, 0)),url("https://i.imgur.com/2TX6U1a.jpeg"), center center;
+    backdrop-filter: blur(5px);
     background-size:cover;
     width:100vw;
     height:100vh;
