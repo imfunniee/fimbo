@@ -277,6 +277,10 @@ h2 {
     font-family: 'Comfortaa', cursive;
     text-decoration:none;
 }
+i {
+    color:aquamarine
+}
+
 button:focus {
     outline:none;
 }
