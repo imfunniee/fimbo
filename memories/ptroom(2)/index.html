@@ -28,9 +28,9 @@
             .protected {
                 background: #fff;
                 -webkit-box-shadow: 0 2px 3px 0 rgba(0,0,0,0.1);
-                box-shadow: 0 2px 3px 0 rgba(0,0,0,0.1);
+                box-shadow: 0 18px 27px 0 rgba(0,0,0,0.1);
                 border-radius: 3px;
-                min-width: 500px;
+                min-width: 250px;
 
             }
             .protected__content {
@@ -106,13 +106,17 @@
     <body>
 
         <div class="protected">
-            <div class="protected__alert" data-id="alert">:( 差一點點！</div>
+            <div class="protected__alert" data-id="alert">差一點點！ :(</div>
             <div class="protected__content">
-                <h1 class="protected__content__heading">彼記-家庭篇(1)-輸入密碼以解鎖影片</h1>
+                <h1 class="protected__content__heading">彼記-家庭篇(1)-輸入密碼以觀賞影片</h1>
                 <h2 class="protected__content__heading">[地點：彼得房間]</h1>
                 <input class="protected__content__input" data-id="password" type="password" placeholder="password"/>
-                <button data-id="button" type="button" class="protected__content__btn">提交</button>
-                <button class="btn_two" onclick="location.href='../index.html'" type="button">帶我到回憶大廳</button>
+                <center>
+                    <button data-id="button" type="button" class="protected__content__btn">提交</button>
+                    <button type="button" class="protected__content__btn" onclick="location.href='../index.html'">回到大廳</button>
+                </center>
+
+                <!-- <button class="btn_two" onclick="location.href='../index.html'" type="button">帶我到回憶大廳</button> -->
             </div>
         </div>
 

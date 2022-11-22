@@ -29,14 +29,18 @@
         <div class="box2 onlywide animated bounceOutRight" style="animation-delay:1.7s;"></div>
     </div>
     <a id="about" onclick="showabout()" class="animated fadeIn" style="animation-delay:2.2s;">地下室</a>
-    <a id="work" onclick="showwork()" class="animated fadeIn" style="animation-delay:2.2s;">二樓至五樓</a>
+    <a id="work" onclick="showwork()" class="animated fadeIn" style="animation-delay:2.2s;">五樓</a>
     <a id="contact" onclick="showcontact()" class="animated fadeIn" style="animation-delay:2.2s;">一樓</a>
+
+    <!--
+        主按鍵區
+    -->
     <div id="middle" class="animated slideInDown" style="animation-delay:2.0s;">
         <h1>彼記-回憶大廳</h1>
         <h2>點選您所在樓層～</h2>
         <div id="menu">
             <a onclick="showabout()">地下室</a>
-            <a onclick="showwork()">二至五樓</a>
+            <a onclick="showwork()">五樓</a>
             <a onclick="showcontact()">一樓</a>
         </div>
         <table>
@@ -51,26 +55,38 @@
                 </tr>
         </table>
     </div>
+
+
+
+    <!--
+        5F
+    -->
     <div id="work_container" class="container">
         <div onclick="closework()"><i class="fas fa-angle-right"></i></div>
             <center>
                 <!-- <h1>二至五樓</h1> -->
                 <h2 style="color: white; text-shadow: 4px 4px 5px black;">請選擇欲嘗試解鎖之影片：</h2>
                 <table>
-                    <tr>
-                        <h2>社區庭院（二樓大堂外）<br>—家庭篇2</h2>
+                    <!-- <tr>
+                        <h2>社區庭院（2F大堂外）<br>—家庭篇2</h2>
                         <button class="btn_one" onclick="location.href='bigtng/index.html'" type="button">點我進入解密畫面</button>
-                    <tr>
-                        <h2>女友房間（五樓禱告室）<br>-感情篇1</h2>
+                    <tr> -->
+                        <h2>女友房間(5F禱告室)<br>-感情篇1</h2>
                         <button class="btn_one" onclick="location.href='gfroom(1)/index.html'" type="button">點我進入收視畫面</button>
                     </tr>
                     <tr>
-                        <h2>女友房間（五樓禱告室）<br>-感情篇2</h2>
+                        <h2>女友房間(5F禱告室)<br>-感情篇2</h2>
                         <button class="btn_one" onclick="location.href='gfroom(2)/index.html'" type="button">點我進入收視畫面</button>
                     </tr>
                 </table>
             </center>
     </div>
+    
+
+
+    <!--
+        1F
+    -->
     <div id="about_container" class="container">
         <div onclick="closeabout()"><i class="fas fa-angle-left"></i></div>
             <center>
@@ -78,23 +94,30 @@
                 <h2 style="color: white; text-shadow: 4px 4px 5px black;">請選擇欲嘗試解鎖之影片：</h2>
                 <table>
                     <tr>
-                        <h2>彼得房間（B1-208）—感情1</h2>
+                        <h2>彼得房間（B1-208）—日記</h2>
                         <button class="btn_one" onclick="location.href='ptroom(1)/index.html'" type="button">點我進入解密畫面</button>
                     <tr>
-                        <h2>彼得房間（B1-208）—家庭篇1</h2>
+                        <h2>彼得房間（B1-208）—拼圖</h2>
                         <button class="btn_one" onclick="location.href='ptroom(2)/index.html'" type="button">點我進入解密畫面</button>
                     </tr>
                     <tr>
-                        <h2>海科概教室（B1-201）—校園篇1</h2>
+                        <h2>海科概教室（B1-201）—潮汐表</h2>
                         <button class="btn_one" onclick="location.href='clssrm(1)/index.html'" type="button">點我進入解密畫面</button>
                     </tr>
                     <tr>
-                        <h2>海科概教室（B1-201）—校園篇2</h2>
+                        <h2>海科概教室（B1-201）—待辦事項</h2>
                         <button class="btn_one" onclick="location.href='clssrm(2)/index.html'" type="button">點我進入解密畫面</button>
                     </tr>
                 </table>
             </center>
     </div>
+
+
+
+    <!--
+        B1
+    -->
+
     <div id="contact_container" class="container">
         <div onclick="closecontact()"><i class="fas fa-angle-down"></i></div>
             <center>
@@ -102,22 +125,32 @@
                 <h2 style="color: white; text-shadow: 4px 4px 5px black;">請選擇欲嘗試解鎖之影片：</h2>
                 <table>
                     <tr>
-                        <h2>球場（一樓大聽）<br>—信仰2</h2>
+                        <h2>球場(1F大廳)-成員表</h2>
                         <button class="btn_one" onclick="location.href='bsktbl(1)/index.html'" type="button">點我進入解密畫面</button>
                     <tr>
-                        <h2>球場（一樓大聽）<br>—信仰3</h2>
+                        <h2>球場(1F大廳)—時間表</h2>
                         <button class="btn_one" onclick="location.href='bsktbl(2)/index.html'" type="button">點我進入解密畫面</button>
                     </tr>
                     <tr>
-                        <h2>倲洋漁場辦公室（一樓副堂）<br>—職場篇1</h2>
+                        <h2>倲洋漁場辦公室(1F副堂)—顏色碼</h2>
                         <button class="btn_one" onclick="location.href='office/index.html'" type="button">點我進入解密畫面</button>
                     </tr>
                 </table>
             </center>
     </div>
-        <div id="footer">
-            Brought to you by <a href="https://www.hwaining.org/">Hwaining Baptist Church</a><br> <a>2022 Peter Note</a>
-        </div>
+    
+    
+
+    
+    <!--
+        bottom of page
+    -->
+    <div id="footer">
+        <!-- Brought to you by <a href="https://www.hwaining.org/">Hwaining Baptist Church</a><br> -->
+        <a>2022 Peter Note</a>
+    </div>
+
+
     <script src="index.js" type="text/javascript"></script>
     <script src="particles.js"></script>
     <script src="app.js"></script>
