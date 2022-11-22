@@ -128,3 +128,6 @@ h2{
     border-radius: 10px;
 }
 
+img {
+    border: 3px solid #555;
+  }
