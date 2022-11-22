@@ -8,10 +8,13 @@ html {
     /* font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif; */
     font-family: 'Comfortaa', cursive;
     font-weight:bold;
-    /* font-weight: 300; */
     font-size: 16px;
-    /* text-shadow: rgba(185, 167, 94, 0.808) 2px 2px 2px; */
-    background: #dbc960;
+    /* background: #dbc960; */
+    /* background:rgb(0, 0, 0); */
+    /* background:linear-gradient(0deg,rgba(8, 135, 185, 0.301),rgba(184, 58, 209, 0.349)),url("https://media.tenor.com/BSp1Rv3lUIIAAAAC/aesthetic-beautiful.gif") center center fixed; */
+    background: linear-gradient(0deg,rgba(0, 0, 0, 0.945),rgba(78, 42, 1, 0.45)),url("https://i.imgur.com/qEpnnqW.jpeg") center center fixed repeat-x;
+    /* background-image: url("https://media.tenor.com/BSp1Rv3lUIIAAAAC/aesthetic-beautiful.gif"); */
+    /* background-size: cover; */
     color: #2D3737;
     display: flex;
     align-items: center;
@@ -99,3 +102,14 @@ h2{
     border: solid 1px #ccc;
     border-radius: 10px;
 }
+
+
+/* @keyframes .slide {
+    0%{
+      transform: translate3d(0, 0, 0);
+    }
+    100%{
+      transform: translate3d(-1692px, 0, 0);
+    }
+  }
+ */
