@@ -3,23 +3,16 @@
 *:before {
     box-sizing: border-box;
 }
-body,
-html {
-    /* font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif; */
-    font-family: 'Comfortaa', cursive;
-    font-weight:bold;
-    font-size: 16px;
-    /* background: #dbc960; */
-    /* background:rgb(0, 0, 0); */
-    /* background:linear-gradient(0deg,rgba(8, 135, 185, 0.301),rgba(184, 58, 209, 0.349)),url("https://media.tenor.com/BSp1Rv3lUIIAAAAC/aesthetic-beautiful.gif") center center fixed; */
-    background: linear-gradient(0deg,rgba(0, 0, 0, 0.945),rgba(78, 42, 1, 0.45)),url("https://blackgold.sa/wp-content/uploads/2018/02/2560x1440-blue-abstract-noise-free-website-background-image.jpg") center center fixed;
-    /* background-image: url("https://media.tenor.com/BSp1Rv3lUIIAAAAC/aesthetic-beautiful.gif"); */
-    /* background-size: cover; */
-    color: #2D3737;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    min-height: 100%;
+body {
+    padding:0px;
+    margin:0px;
+    background:linear-gradient(0deg,rgba(0,0,0,0.5),rgb(0, 0, 0)),url("https://i.imgur.com/2TX6U1a.jpeg"), center center;
+    backdrop-filter: blur(5px);
+    background-size:cover;
+    width:100vw;
+    height:100vh;
+    overflow:hidden;
+    font-family: 'Josefin Sans', sans-serif;
 }
 
 #loading {
@@ -42,20 +35,56 @@ html {
     border-radius:50%;
     margin:0;
 }
+
+#middle {
+    width:100vw;
+    height:90vh;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    position:fixed;
+    top:0;
+    text-align:center;
+    z-index:1;
+    color:#fff;
+    padding-bottom:10vh;
+}
+
+#middle h1 {
+    color:rgb(255, 50, 50);
+    font-size:50px;
+    text-shadow: 4px 4px 5px black;
+    /* text-decoration-line: underline; */
+    text-decoration: underline dotted;
+}
+
 @keyframes rotate {
     0% {transform: rotate(0deg);}
     100% {transform: rotate(360deg);}
 }
 
-.videoWrapper {
-    position: relative;
-    padding-top: 25px;
-    height: 0;
-    width: 100%;
-    clear:both;
-    /* outline:1px solid red; */
+#middle table {
+    width:30%;
+    margin:6vh auto;
+}
+#middle table tr td {
+    text-align:center;
 }
 
-.videoWrapper.ratio-16-9{
-    padding-bottom: 56.25%; /* 16:9 */
+.btn_one {
+    font-size:18px;
+    font-family: 'Josefin Sans', sans-serif;
+    color:#fff;
+    background:transparent;
+    border:3px solid #fff;
+    padding:8px 40px;
+    border-radius:80px;
+    font-weight:bold;
+    margin:2vh 10px;
+    transition:0.4s ease-in-out;
+}
+.btn_one:hover {
+    cursor:pointer;
+    color:rgb(255, 50, 50);
+    background:#fff;
 }
