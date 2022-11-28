@@ -8,7 +8,8 @@ body {
     background-size:cover;
     width:100vw;
     height:100vh;
-    overflow:hidden;
+    overflow-x:hidden;
+    overflow-y:auto;
     font-family: 'Josefin Sans', sans-serif;
 }
 #loading {
@@ -317,6 +318,7 @@ body {
     position:fixed;
     width:100vw;
     height:100vh;
+    overflow:hidden;
 }
 ::-webkit-scrollbar {
     width:5px;
