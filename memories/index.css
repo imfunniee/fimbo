@@ -88,6 +88,7 @@ body {
 }
 #about {
     width:10vw;
+    min-width:80px;
     height:10vw;
     text-align:center;
     font-size:25px;
@@ -106,6 +107,7 @@ body {
 }
 #work {
     width:10vw;
+    min-width:80px;
     height:10vw;
     text-align:center;
     font-size:25px;
@@ -124,6 +126,7 @@ body {
 }
 #contact {
     width:10vw;
+    min-width:80px;
     height:10vw;
     text-align:center;
     font-size:25px;
