@@ -82,11 +82,19 @@ body {
 }
 #middle h1 {
     color:rgb(255, 50, 50);
-    font-size:50px;
+    font-size:40px;
+    margin:20px;
     text-shadow: 4px 4px 5px black;
     /* text-decoration-line: underline; */
     text-decoration: underline dotted;
 }
+#middle h2 {
+    margin:10px;
+}
+#middle p {
+    margin:5px;
+}
+
 #about {
     width:10vw;
     min-width:80px;
