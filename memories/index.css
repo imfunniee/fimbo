@@ -58,7 +58,7 @@ body {
 #menu {
     width:100%;
     text-align:center;
-    margin:6vh 0px;
+    margin:4vh 0px;
     display:none;
 }
 #menu a {
@@ -157,7 +157,7 @@ body {
 }
 #middle table {
     width:60%;
-    margin:6vh auto;
+    margin:4vh auto;
 }
 #middle table tr td {
     text-align:center;
