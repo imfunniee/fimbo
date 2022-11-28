@@ -156,7 +156,7 @@ body {
     cursor:pointer;
 }
 #middle table {
-    width:30%;
+    width:60%;
     margin:6vh auto;
 }
 #middle table tr td {
@@ -338,7 +338,7 @@ body {
 	background: rgb(255, 50, 50);
 }
 
-@media (max-width: 350px){ 
+@media (max-width: 400px){ 
     #about {
         display:none;
     }
@@ -399,7 +399,7 @@ body {
     margin: auto;
     display: block;
     width: 80%;
-    max-width: 350px;
+    max-width: 400px;
 }
   
 /* The Modal (background) */
