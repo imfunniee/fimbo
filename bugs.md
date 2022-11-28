@@ -37,10 +37,10 @@
     - 希望怎麼調整：
         - 有bug的區塊主要在`html`裡的表格區塊。有可能調好那個區塊就能把文字弄成橫的。
         - 相同按鈕之間的間隔需要用相關的`css`檔來修。再不行要重寫。
-        - 程序上，要改動某個解密畫面、影片畫面，先在`copies`檔案中找到相對應的子資料夾，調整後，再置換掉`p1,p2,p3`中有出現的一樣名稱的子資料夾。
+        - 程序上，要改動某個解密畫面、影片畫面（`/memories/p1,p2,p3/index.html`不包含在這範圍當中），先在`copies`檔案中找到相對應的子資料夾，調整後，再置換掉`p1,p2,p3`中有出現的一樣名稱的子資料夾。
     - 預設Deadline：希望**週四**（12/01）能修好。
     - **分工**：
-        - [ ] 平修改 `/memories/p1/index.html` 檔案中有問題的片段。
+        - [ ] 平試試看直接修改 `/memories/p1/index.html` 檔案中有問題的片段。
             - 該網頁在GitHub上的[檔案位置](https://github.com/ZebraAlgebra/fimbo_2022/blob/master/memories/p1/index.html)與[預覽連結](https://zebraalgebra.github.io/fimbo_2022/memories/p1/index.html)。檔案中出問題的片段應為Line47-68中`table`的元素。
             - 按鍵的css設定在同一個資料夾中的`index.css`（在`index.html`中於第16行引入），如果有需要更動到css的設定。
         - [ ] 偉更動至其他所有遇到同樣的網頁。
