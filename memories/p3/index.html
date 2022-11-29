@@ -19,6 +19,7 @@
     <div id="loading">
         <div id="spinner"></div>
     </div>
+    <div class="background"></div>
     <div id="particles-js"></div>
     <div id="box">
         <div class="box1 onlywide animated bounceOutLeft" style="animation-delay:1.7s;"></div>
@@ -53,6 +54,10 @@
                     <td class="animated zoomIn" style="animation-delay:2.4s;"><button class="btn_one" onclick="location.href='../../index.html'" type="button">回彼記主頁</button></tr>
                 </tr>
         </table>
+
+        <div id="footer">
+            <a>2022 Peter Note</a>
+        </div>
     </div>
 
     <!--
@@ -67,6 +72,7 @@
         1F
     -->
     <div id="work_container" class="container">
+        <div class="container__content">
         <div onclick="closework()" class="back_arrow"><i class="fas fa-angle-right"></i></div>
             <center>
                 <!-- <h1>二至五樓</h1> -->
@@ -89,14 +95,14 @@
                 </table>
             </center>
     </div>
-    
 
 
     <!--
         B1
     -->
     <div id="about_container" class="container">
-        <div onclick="closeabout()" class="back_arrow"><i class="fas fa-angle-left"></i></div>
+        <div class="container__content">
+            <div onclick="closeabout()" class="back_arrow"><i class="fas fa-angle-left"></i></div>
             <center>
                 <!-- <h1>地下室</h1> -->
                 <h2 style="color: white; text-shadow: 4px 4px 5px black;">選擇欲嘗試解鎖之影片：</h2>
@@ -120,15 +126,7 @@
                     </tr> -->
                 </table>
             </center>
-    </div>    
-
-
-    <!--
-        bottom of page
-    -->
-    <div id="footer">
-        <!-- Brought to you by <a href="https://www.hwaining.org/">Hwaining Baptist Church</a><br> -->
-        <a>2022 Peter Note</a>
+        </div>
     </div>
 
 

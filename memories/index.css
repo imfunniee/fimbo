@@ -3,15 +3,21 @@
 body {
     padding:0px;
     margin:0px;
-    background:linear-gradient(0deg,rgba(0,0,0,0.5),rgb(0, 0, 0)),url("https://i.imgur.com/2TX6U1a.jpeg"), center center;
-    backdrop-filter: blur(5px);
-    background-size:cover;
-    width:100vw;
-    height:100vh;
     overflow-x:hidden;
     overflow-y:auto;
     font-family: 'Josefin Sans', sans-serif;
 }
+
+.background {
+    position: fixed;
+    top:0;
+    width:100vw;
+    height:100vh;
+    background:linear-gradient(0deg,rgba(0,0,0,0.5),rgb(0, 0, 0)),url("https://i.imgur.com/2TX6U1a.jpeg"), center center;
+    background-size:cover;
+    filter: blur(5px);
+}
+
 #loading {
     width: 100vw;
     height: 100vh;
@@ -69,16 +75,14 @@ body {
 }
 #middle {
     width:100vw;
-    height:90vh;
+    min-height:100vh;
     display:flex;
     flex-direction:column;
     justify-content:center;
-    position:fixed;
     top:0;
     text-align:center;
     z-index:1;
     color:#fff;
-    padding-bottom:10vh;
 }
 #middle h1 {
     color:rgb(255, 50, 50);
@@ -189,30 +193,34 @@ body {
     color:rgb(255, 50, 50);
 }
 .container {
-    width:90vw;
+    position:fixed;
+    top:0;
+    width:100vw;
     height:100vh;
-    padding:5vh 5vw;
     background:rgba(230, 144, 45, 0.975);
     color:#fff;
     z-index:9;
-    position:fixed;
     max-height:100vh;
-    overflow-y:auto;
     display:none;
-}
-.container div {
-    font-size:25px;
-    margin:20px 0px;
-    transition:0.4s ease-in-out;
-}
-.container div:hover {
-    cursor:pointer;
 }
 .container section {
     margin:8vh 0px;
 }
+.container .container__content {
+    position:absolute;
+    top:0;
+    bottom:0;
+    overflow-y:auto;
+    width:100%;
+}
 .container .back_arrow {
-    margin:0px;
+    margin-top:20px;
+    margin-left:20px;
+    font-size:25px;
+    transition:0.4s ease-in-out;
+}
+.container .back_arrow:hover {
+    cursor:pointer;
 }
 
 #used div{
@@ -320,12 +328,10 @@ body {
 }
 #footer {
     color:#fff;
-    width:92vw;
     padding:5vh 4vw;
     text-align:right;
-    position:fixed;
     z-index:1;
-    bottom:0;
+    margin-top:auto;
     font-size:16px;
     font-weight:bold;
 }
