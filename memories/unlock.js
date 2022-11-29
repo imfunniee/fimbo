@@ -29,17 +29,18 @@ function login(secret) {
     request.send()
 }
 
-button[0].addEventListener("click", function () {
-    login(password[0].value)
-})
-
-document.onkeydown = function (e) {
-    e = e || window.event
-    if (e.keyCode == 13) {
+if (button.length > 0) {
+    button[0].addEventListener("click", function () {
         login(password[0].value)
+    })
+
+    document.onkeydown = function (e) {
+        e = e || window.event
+        if (e.keyCode == 13) {
+            login(password[0].value)
+        }
     }
 }
-
 
 setTimeout(function(){
     $("#loading").addClass("animated fadeOut");
