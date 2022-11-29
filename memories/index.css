@@ -391,7 +391,6 @@ body {
     display: none; /* Hidden by default */
     position: fixed; /* Stay in place */
     z-index: 10; /* Sit on top */
-    padding-top: 100px; /* Location of the box */
     left: 0;
     top: 0;
     width: 100%; /* Full width */
@@ -404,7 +403,12 @@ body {
 /* Modal Content (image) */
 .modal-content {
     margin: auto;
+    position: fixed;
     display: block;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
     width: 80%;
     max-width: 700px;
 }
