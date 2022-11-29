@@ -11,7 +11,8 @@ body {
     background-size:cover;
     width:100vw;
     height:100vh;
-    overflow:hidden;
+    overflow-x:hidden;
+    overflow-y:auto;
     font-family: 'Josefin Sans', sans-serif;
 }
 
@@ -25,6 +26,7 @@ body {
     justify-content: center;
     flex-direction: column;
     align-items: center;
+    overflow:hidden;
 }
 #spinner {
     animation: rotate 0.56s infinite linear;
@@ -64,11 +66,12 @@ body {
 }
 
 #middle table {
-    width:30%;
+    width:60%;
     margin:6vh auto;
 }
 #middle table tr td {
     text-align:center;
+    margin: 4vh auto;
 }
 
 .btn_one {
