@@ -387,7 +387,7 @@ body {
 }
 
 
-
+/* segment managing popupimage starts here */
 
 .popupimage {
     display: none; /* Hidden by default */
@@ -493,3 +493,6 @@ body {
     text-decoration: none;
     cursor: pointer;
   }
+
+
+  /* segment managing popupimage ends here */
