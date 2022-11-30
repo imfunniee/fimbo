@@ -105,8 +105,10 @@ body {
     background:transparent;
     color:#fff;
     position:fixed;
+    margin:auto;
     left:0;
-    bottom:40vh;
+    top:0;
+    bottom:0;
     display:flex;
     flex-direction: column;
     justify-content:center;
@@ -124,8 +126,10 @@ body {
     background:transparent;
     color:#fff;
     position:fixed;
+    margin:auto;
     right:0;
-    bottom:40vh;
+    top:0;
+    bottom:0;
     display:flex;
     flex-direction: column;
     justify-content:center;
@@ -142,8 +146,10 @@ body {
     background:transparent;
     color:#fff;
     position:fixed;
+    margin:auto;
+    left:0;
+    right:0;
     bottom:0;
-    left:45vw;
     display:flex;
     flex-direction: column;
     justify-content:center;
