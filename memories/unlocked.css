@@ -43,19 +43,18 @@ body {
     flex-direction:column;
     justify-content:center;
     position:fixed;
-    top:0;
+    top:15px;
     text-align:center;
     z-index:1;
     color:#fff;
-    padding-bottom:10vh;
+    padding-top:10vh;
 }
 
 #middle h1 {
     color:rgb(255, 50, 50);
     font-size:50px;
     text-shadow: 4px 4px 5px black;
-    /* text-decoration-line: underline; */
-    text-decoration: underline dotted;
+    padding-left: 7vw;
 }
 
 @keyframes rotate {
@@ -77,7 +76,7 @@ body {
     color:#fff;
     background:transparent;
     border:3px solid #fff;
-    padding:8px 40px;
+    padding:8px 35px;
     border-radius:80px;
     font-weight:bold;
     margin:2vh 10px;
