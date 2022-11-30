@@ -189,7 +189,7 @@ body {
     color:rgb(255, 50, 50);
 }
 .container {
-    width:100vw;
+    width:90vw;
     height:100vh;
     padding:5vh 5vw;
     background:rgba(230, 144, 45, 0.975);
