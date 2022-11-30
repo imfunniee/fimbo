@@ -91,6 +91,10 @@ html {
     outline: none;
     border-color: #228843;
 }
+.protected__content__btns {
+    display: flex;
+    justify-content: space-between;
+}
 .protected__content__btn {
     background-color: #228843;
     border-radius: 10px;
@@ -101,7 +105,7 @@ html {
     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
     font-weight: 500;
     font-size: 16px;
-    margin-right: 10px;
+    margin: 0px 6px;
 }
 .protected__content__btn:hover {
     background-color: #1C6D36;
