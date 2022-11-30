@@ -85,10 +85,10 @@ body,html {
     flex-direction:column;
     transition:1s ease-in-out;
     padding-top:20vh;
-    -webkit-animation: background-scroll 60s linear infinite; /* Chrome, Safari, Opera */
-    animation: background-scroll 60s linear infinite;
+    -webkit-animation: background-scroll linear 150s infinite; /* Chrome, Safari, Opera */
+    animation: background-scroll linear 150s infinite;
 }
-@keyframes background-scroll{
+/* @keyframes background-scroll{
     0%{
         background-position: right;
     }
@@ -98,7 +98,38 @@ body,html {
     100%{
         background-position: right;
     }
+} */
+@keyframes background-scroll{
+    0%{
+        background-position: top right;
+        background-size: auto 170%;
+    }
+    16.6%{
+        background-position: left;
+        background-size: auto 110%;
+    }
+    33.2%{
+        background-position: bottom right;
+        background-size: auto 140%;
+    }
+    49.8%{
+        background-position: top left;
+        background-size: auto 150%;
+    }
+    66.4%{
+        background-position: right;
+        background-size: auto 110%;
+    }
+    88%{
+        background-position: bottom left;
+        background-size: auto 140%;
+    }
+    100%{
+        background-position: top right;
+        background-size: auto 170%;
+    }
 }
+
 
 #tagline {
     font-size:50px;
