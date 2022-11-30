@@ -211,6 +211,10 @@ body {
 .container section {
     margin:8vh 0px;
 }
+.container .back_arrow {
+    margin:0px;
+}
+
 #used div{
     font-size:14px !important;
     display:inline-block;
