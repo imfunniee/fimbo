@@ -91,6 +91,16 @@ html {
     outline: none;
     border-color: #228843;
 }
+
+/* preliminary check for inputed value */
+.protected__content__input:focus:invalid {
+    border-color: red;
+}
+.protected__content__input:invalid {
+    border-color: red;
+}
+
+
 .protected__content__btns {
     display: flex;
     justify-content: space-between;
