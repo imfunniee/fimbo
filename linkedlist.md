@@ -10,7 +10,7 @@
   - [網站樹](#subsection_3_1)
   - [網站跳轉連結](#subsection_3_2)
 
-前兩項的用意在於方便更新網站上的設定（因為圖片與影片來源還會繼續被要求調整）。比如嵌入處的資訊可以直接幫助我們update用到的影片的區段。（原先vengo, elsa雖然有google工作表紀錄這些，但太難follow，故另外創造這個md檔來追蹤）。
+前兩項的用意在於方便更新網站上的設定（因為圖片與影片來源還會繼續被要求調整）。比如嵌入處的資訊可以直接幫助我們update用到的影片的區段。（原先雖然有google工作表紀錄這些，但網頁維護與更新以另外的檔案作會比較容易，故另外創造這個md檔來追蹤）。
 
 第三項的用意在於方便檢查每一個頁面的設定，方便手機使用者直接點選觀看。
 
@@ -33,11 +33,11 @@
 ||分手| [連結](https://youtu.be/Fay7nDqBAz0) | Fay7nDqBAz0 | `/memories/p3/bsktbl(2)/a*/index.html`|
 |**信仰**|安慰| [連結](https://youtu.be/yds6x5fC33o) | yds6x5fC33o | `/memories/p3/bsktbl(1)/6*/next.html`|
 ||飯局| [連結](https://youtu.be/x98EJdPozNM) | x98EJdPozNM | `/memories/p1/bsktbl(2)/a*/index.html`|
-||球局| [連結](https://youtu.be/vINGxG4uDw0) | vINGxG4uDw0 | -|
+||球局| [連結](https://youtu.be/vINGxG4uDw0) | vINGxG4uDw0 | `/memories/p3/bsktbl(0)/9*/index.html`|
 |**家庭**|外遇| [連結](https://youtu.be/HOA_Hb7bmlE) | HOA_Hb7bmlE | `/memories/p2/ptroom(2)/2*/c*/next.html`|
 ||||| `/memories/p3/ptroom(2)/2*/c*/next.html`|
-|**校園**|紀錄| [連結](https://youtu.be/lGjfinymGMo) | lGjfinymGMo | `/memories/p1/bsktbl(2)/a*/index.html`|
-||交惡| [連結](https://youtu.be/rV96IMrwMzE) | rV96IMrwMzE | `/memories/p1/clssrm(2)/c*/index.html`|
+|**校園**|紀錄| [連結](https://youtu.be/lGjfinymGMo) | lGjfinymGMo | `/memories/p1/clssrm(2)/c*/index.html`|
+||交惡| [連結](https://youtu.be/rV96IMrwMzE) | rV96IMrwMzE | `/memories/p1/clssrm(1)/9*/index.html`|
 |**職場**|職場| [連結](https://youtu.be/s3qBnWSEiLo) | s3qBnWSEiLo | `/memories/p1/office/c*/index.html`|
 ||
 
@@ -67,9 +67,9 @@
 主頁
   ┣━> 人際事業  <━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┓
   ┃     ┣━> 必考題(1)解密畫面（密碼：5:12）             :
-  ┃     ┃     ┗━> 影片收視畫面（片名：校園篇-紀錄）━━━━━━┫
-  ┃     ┣━> 必考題(2)解密畫面（密碼：BEIGAN）           :
   ┃     ┃     ┗━> 影片收視畫面（片名：校園篇-交惡）━━━━━━┫
+  ┃     ┣━> 必考題(2)解密畫面（密碼：BEIGAN）           :
+  ┃     ┃     ┗━> 影片收視畫面（片名：校園篇-紀錄）━━━━━━┫
   ┃     ┣━> 奇怪的排練時間表（密碼：47863）<━━━━┓       :
   ┃     ┃     ┣━> 提示頁面（密碼：63692）      :       :
   ┃     ┃     ┃     ┗━> 提示解鎖畫面━━━━━━━━━━┛       :
@@ -83,7 +83,7 @@
   ┃           ┗━> 開關頁面 ━━> 第一個解密畫面（密碼：1314）    :
   ┃           ┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┛      :
   ┃           ┗━> 第二個解密畫面（密碼：COFFEE）              :
-  ┃                 ┗━> 圖片查看畫面（片名：職場篇-職場）      :
+  ┃                 ┗━> 圖片查看畫面                        :
   ┃                      ┗━> 影片收視畫面（片名：家庭篇-外遇）━┛
   ┗━> 家庭信仰  <━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┓
         ┣━> 新生成員表（密碼：122412）                       :
@@ -93,14 +93,16 @@
         ┃     ┗━> 開關頁面 ━━> 第一個解密畫面（密碼：1314）    :
         ┃     ┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┛      :
         ┃     ┗━> 第二個解密畫面（密碼：COFFEE）              :
-        ┃           ┗━> 圖片查看畫面（片名：職場篇-職場）      :
+        ┃           ┗━> 圖片查看畫面                        :
         ┃                ┗━> 影片收視畫面（片名：家庭篇-外遇）━┫
-        ┗━> 奇怪的排練時間表（密碼：47863）<━━━━┓             :
-              ┣━> 提示頁面（密碼：63692）      :             :
-              ┃     ┗━> 提示解鎖畫面━━━━━━━━━━┛             :
-              ┗━> 影片收視畫面（片名：感情篇-分手）━━━━━━━━━━━━┛
+        ┣━> 奇怪的排練時間表（密碼：47863）<━━━━┓             :
+        ┃     ┣━> 提示頁面（密碼：63692）      :             :
+        ┃     ┃     ┗━> 提示解鎖畫面━━━━━━━━━━┛             :
+        ┃     ┗━> 影片收視畫面（片名：感情篇-分手）━━━━━━━━━━━━┫
+        ┗━> 小試身手（密碼：待定, 先預設 Peter Blake Griffin） :
+              ┗━> 影片收視畫面（片名：信仰篇-球局）━━━━━━━━━━━━┛
 ``` -->
-![Tree](https://i.imgur.com/Ee216Wj.png)
+![Tree](https://i.imgur.com/bLMkvmQ.png)
 
 ### ⚡ 網站跳轉連結 <a name="subsection_3_2"></a>
 
@@ -138,3 +140,5 @@
             - [提示頁面](https://zebraalgebra.github.io/fimbo_2022/memories/p3/bsktbl(2)/hint/hint.html)
                 - [提示解開頁面](https://zebraalgebra.github.io/fimbo_2022/memories/p3/bsktbl(2)/hint/983ccb1526c87e46637f0c2fe97cf8b85e466efc/index.html)
             - [感情篇-分手](https://zebraalgebra.github.io/fimbo_2022/memories/p3/bsktbl(2)/a6571f80da341254483814b2b0760da29178c6ed/index.html)
+        - [小試身手](https://zebraalgebra.github.io/fimbo_2022/memories/p3/bsktbl(0)/index.html)
+            - [信仰篇-球局](https://zebraalgebra.github.io/fimbo_2022/memories/p3/bsktbl(0)/94042ccaff9cb6498a02911e2f41fd219444cba4/index.html)
