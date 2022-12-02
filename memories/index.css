@@ -403,26 +403,30 @@ body {
     z-index: 10; /* Sit on top */
     left: 0;
     top: 0;
-    width: 100%; /* Full width */
-    height: 100%; /* Full height */
-    overflow: auto; /* Enable scroll if needed */
+    width: 100vw; /* Full width */
+    height: 100vh; /* Full height */
     background-color: rgb(0,0,0); /* Fallback color */
+    overflow: auto;
 }
 
 
-/* Modal Content (image) */
+/* Modal Content */
 .modal-content {
-    margin: auto;
-    position: fixed;
-    display: block;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    width: 80%;
+    display: table;
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
     max-width: 700px;
 }
 
+.modal-cell {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.modal-image {
+    width: 100%;
+}
 
 /* The Close Button */
 .close {
@@ -444,12 +448,7 @@ body {
 
 /* 100% Image Width on Smaller Screens */
 @media only screen and (max-width: 700px) {
-    .modal-content {
-        width: 100%;
-    }
-}
-
-.modal-content, #caption {  
+  .modal-content, #caption {  
     -webkit-animation-name: zoom;
     -webkit-animation-duration: 0.6s;
     animation-name: zoom;
@@ -483,6 +482,7 @@ body {
     text-decoration: none;
     cursor: pointer;
   }
+}
 
 
   /* segment managing popupimage ends here */
