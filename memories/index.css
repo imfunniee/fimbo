@@ -86,7 +86,7 @@ body {
 }
 #middle h1 {
     color:rgb(255, 50, 50);
-    font-size:38px;
+    font-size:min(12vw, 45px);
     margin:20px;
     text-shadow: 4px 4px 5px black;
     /* text-decoration-line: underline; */
@@ -196,12 +196,13 @@ body {
     position:fixed;
     top:0;
     width:100vw;
-    height:100vh;
+    height:100%;
     background:rgba(230, 144, 45, 0.975);
     color:#fff;
     z-index:9;
     max-height:100vh;
     display:none;
+    padding-bottom: 5vh;
 }
 .container section {
     margin:8vh 0px;
@@ -212,6 +213,7 @@ body {
     bottom:0;
     overflow-y:auto;
     width:100%;
+    padding-bottom: 10vh;
 }
 .container .back_arrow {
     margin-top:20px;
@@ -250,6 +252,7 @@ body {
 .container p {
     font-size:21px;
 }
+
 .btn_one {
     font-size:18px;
     font-family: 'Josefin Sans', sans-serif;
