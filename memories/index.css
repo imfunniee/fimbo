@@ -75,7 +75,7 @@ body {
 }
 #middle {
     width:100vw;
-    min-height:100vh;
+    min-height:100%;
     display:flex;
     flex-direction:column;
     justify-content:center;
@@ -89,7 +89,6 @@ body {
     font-size:min(12vw, 45px);
     margin:20px;
     text-shadow: 4px 4px 5px black;
-    /* text-decoration-line: underline; */
     text-decoration: underline dotted;
 }
 #middle h2 {
@@ -286,9 +285,6 @@ body {
     cursor:pointer;
     padding:8px 60px;
 }
-/* .item {
-    width: 200px;
-} */
 
 .container form input {
     width:46%;
@@ -496,7 +492,7 @@ body {
 }
 
 
-  /* segment managing popupimage ends here */
+/* segment managing popupimage ends here */
 
 
 
