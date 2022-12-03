@@ -1,6 +1,6 @@
 # 各式設定表
 
-`上次更新：12/01 15:30`
+`上次更新：12/03 18:51`
 
 這個md檔用於紀錄以下資訊：
 
@@ -28,13 +28,12 @@
 
 |副標| 片名 | 網址 | 網址末碼 | 嵌入處 |
 | --: | --: | :-- | :-- | --: |
-|**感情**| 求婚| [連結](https://youtu.be/z49ig_rZEX4) | z49ig_rZEX4 | `/memories/p3/bsktbl(1)/6*/index.html`|
+|**感情**| 求婚| [連結](https://youtu.be/MFu2Ol3GkQk) | z49ig_rZEX4 | `/memories/p3/bsktbl(1)/6*/index.html`|
 || 學弟| [連結](https://youtu.be/YdHsajGhycI) | YdHsajGhycI | `/memories/p2/ptroom(1)/0*/index.html`|
 ||分手| [連結](https://youtu.be/Fay7nDqBAz0) | Fay7nDqBAz0 | `/memories/p3/bsktbl(2)/a*/index.html`|
-|**信仰**|安慰| [連結](https://youtu.be/yds6x5fC33o) | yds6x5fC33o | `/memories/p3/bsktbl(1)/6*/next.html`|
-||飯局| [連結](https://youtu.be/x98EJdPozNM) | x98EJdPozNM | `/memories/p1/bsktbl(2)/a*/index.html`|
+|**信仰**|飯局| [連結](https://youtu.be/x98EJdPozNM) | x98EJdPozNM | `/memories/p1/bsktbl(2)/a*/index.html`|
 ||球局| [連結](https://youtu.be/vINGxG4uDw0) | vINGxG4uDw0 | `/memories/p3/bsktbl(0)/9*/index.html`|
-|**家庭**|外遇| [連結](https://youtu.be/HOA_Hb7bmlE) | HOA_Hb7bmlE | `/memories/p2/ptroom(2)/2*/c*/next.html`|
+|**家庭**|外遇| [連結](https://youtu.be/I5N1JZuIk5w) | I5N1JZuIk5w | `/memories/p2/ptroom(2)/2*/c*/next.html`|
 ||||| `/memories/p3/ptroom(2)/2*/c*/next.html`|
 |**校園**|紀錄| [連結](https://youtu.be/lGjfinymGMo) | lGjfinymGMo | `/memories/p1/clssrm(2)/c*/index.html`|
 ||交惡| [連結](https://youtu.be/rV96IMrwMzE) | rV96IMrwMzE | `/memories/p1/clssrm(1)/9*/index.html`|
