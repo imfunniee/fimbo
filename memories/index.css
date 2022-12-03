@@ -325,18 +325,44 @@ body {
 ::placeholder {
     color:#fff;
 }
-#footer {
-    color:#fff;
-    padding:5vh 4vw;
-    text-align:right;
+
+/* start of styles for bottom of page */
+
+#container_of_timer_footer {
+    width: 98%;
     z-index:1;
     margin-top:auto;
-    font-size:16px;
+    display: flex;
+    padding-bottom: 4vh;
+}
+
+#footer {
+    color: rgb(255, 50, 50);
+    text-shadow: 1px 1px 1px rgb(44, 0, 205);
+    position: center;
+    font-size:12px;
     font-weight:bold;
+    width: 50%;
+    /* the following is used to test border of footer*/
+    /* border-color: black;
+    border-style: groove; */
 }
-#footer a {
-    color:rgb(255, 50, 50) ;
+
+#timer{
+    color: aqua;
+    text-shadow: 2px 2px 3px rgb(255, 0, 0);
+    position: center;
+    font-weight: bold;
+    font-size:12px;
+    font-style:italic;
+    width: 50%;
+    /* the following is used to test border of footer*/
+    /* border-color: black;
+    border-style: groove; */
 }
+
+/* end of styles for bottom of page */
+
 #particles-js {
     position:fixed;
     width:100vw;
