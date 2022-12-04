@@ -91,10 +91,25 @@ function reloadEndTime(callback) {
 reloadEndTime();
 setInterval(reloadEndTime, 5000);
 
-function updateTimer(ms) {
+function updateTimer(ms, started) {
   var timer = document.getElementById("timer-time");
-  timer.innerHTML = formatTime(ms);
+  var timersection = document.getElementById("timer");
+  // timersection visible if game started
+  if (started) {
+    timersection.style.visibility = "visible";
+  }
+  else {
+    timersection.style.visibility = "hidden";
+  }
+  // time up if past endtime
+  if (ms > 0) {
+    timer.innerHTML = formatTime(ms);
+  }
+  else {
+    timer.innerHTML = "Time's up !";
+  }
 }
+
 
 updateTimer(1000 * 60 * 60);  // 1 hour
 var timerInterval = setInterval(function() {
@@ -104,13 +119,13 @@ var timerInterval = setInterval(function() {
   var minute = now.getUTCMinutes();
   var second = now.getUTCSeconds();
   var ms = (((endHour - hour) * 60 + (endMinute - minute)) * 60 + endSecond - second) * 1000;
-
-  if (ms < 0) {
-    clearInterval(timerInterval);
-  } else {
-    updateTimer(ms);
-  }
+  var started = (endHour >= 0);
+  updateTimer(ms, started);
+  // if (ms < 0) {
+  //   clearInterval(timerInterval);
+  // }
 }, 1000);
+
 
 // Get the modal
 var modal = document.getElementById("myModal");
