@@ -58,6 +58,59 @@ setTimeout(function(){
     },1000);
 },1500);
 
+// Countdown timer
+
+function formatTime(ms) {
+  var hours = Math.floor((ms % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+  var minutes = Math.floor((ms % (1000 * 60 * 60)) / (1000 * 60));
+  var seconds = Math.floor((ms % (1000 * 60)) / 1000);
+  return hours + "hr " + minutes + "m " + seconds + "s";
+}
+
+function reloadEndTime(callback) {
+  const url = "https://opensheet.elk.sh/1BooGWE3g1zshKoVlAM_JjEI6VzbYtEYJyODVHDrQHWM/Sheet1";
+  const request = new XMLHttpRequest();
+  request.ontimeout = () => {
+    console.error(`The request for ${url} timed out`);
+  };
+  request.onerror = () => {
+    console.error(`Request error for ${url}`);
+  }
+  request.onload = () => {
+    console.info(request.responseText);
+    const obj = JSON.parse(request.responseText);
+    endHour = parseInt(obj[0]["hh"]);
+    endMinute = parseInt(obj[0]["mm"]);
+    console.info(`Reloaded end time: ${endHour}:${endMinute}`)
+  };
+  request.open("GET", url, true);
+  //request.timeout = timeout;
+  request.send(null);
+}
+
+reloadEndTime();
+setInterval(reloadEndTime, 5000);
+
+function updateTimer(ms) {
+  var timer = document.getElementById("timer-time");
+  timer.innerHTML = formatTime(ms);
+}
+
+updateTimer(1000 * 60 * 60);  // 1 hour
+var timerInterval = setInterval(function() {
+  const endSecond = 0;
+  var now = new Date();
+  var hour = (now.getUTCHours() + 8) % 24;
+  var minute = now.getUTCMinutes();
+  var second = now.getUTCSeconds();
+  var ms = (((endHour - hour) * 60 + (endMinute - minute)) * 60 + endSecond - second) * 1000;
+
+  if (ms < 0) {
+    clearInterval(timerInterval);
+  } else {
+    updateTimer(ms);
+  }
+}, 1000);
 
 // Get the modal
 var modal = document.getElementById("myModal");
