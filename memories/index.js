@@ -61,11 +61,16 @@ setTimeout(function(){
 // Countdown timer
 
 function formatTime(ms) {
+  // https://www.w3schools.com/howto/howto_js_countdown.asp
   var hours = Math.floor((ms % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
   var minutes = Math.floor((ms % (1000 * 60 * 60)) / (1000 * 60));
   var seconds = Math.floor((ms % (1000 * 60)) / 1000);
   return hours + "hr " + minutes + "m " + seconds + "s";
 }
+
+var endTimeLoaded = false;
+var endHour;
+var endMinute;
 
 function reloadEndTime(callback) {
   const url = "https://opensheet.elk.sh/1BooGWE3g1zshKoVlAM_JjEI6VzbYtEYJyODVHDrQHWM/Sheet1";
@@ -77,14 +82,27 @@ function reloadEndTime(callback) {
     console.error(`Request error for ${url}`);
   }
   request.onload = () => {
-    console.info(request.responseText);
-    const obj = JSON.parse(request.responseText);
-    endHour = parseInt(obj[0]["hh"]);
-    endMinute = parseInt(obj[0]["mm"]);
+    try {
+      const obj = JSON.parse(request.responseText);
+      var newEndHour = parseInt(obj[0]["hh"]);
+      var newEndMinute = parseInt(obj[0]["mm"]);
+      if (isNaN(newEndHour) || isNaN(newEndMinute)) {
+        console.error(`Invalid numbers: ${newEndHour} ${newEndMinute}`);
+        console.info(`Response: ${request.responseText}`);
+        return;
+      }
+      endHour = newEndHour;
+      endMinute = newEndMinute;
+    } catch (error) {
+      console.error(error);
+      console.info(`Response: ${request.responseText}`);
+      return;
+    }
     console.info(`Reloaded end time: ${endHour}:${endMinute}`)
+    endTimeLoaded = true;
   };
   request.open("GET", url, true);
-  //request.timeout = timeout;
+  request.timeout = 1000;
   request.send(null);
 }
 
@@ -97,33 +115,31 @@ function updateTimer(ms, started) {
   // timersection visible if game started
   if (started) {
     timersection.style.visibility = "visible";
-  }
-  else {
+  } else {
     timersection.style.visibility = "hidden";
   }
   // time up if past endtime
   if (ms > 0) {
     timer.innerHTML = formatTime(ms);
-  }
-  else {
+  } else {
     timer.innerHTML = "Time's up !";
   }
 }
 
-
-updateTimer(1000 * 60 * 60);  // 1 hour
 var timerInterval = setInterval(function() {
+  var started = endTimeLoaded && (endHour >= 0);
+  if (!started) {
+    updateTimer(0, started);
+    return;
+  }
+
   const endSecond = 0;
   var now = new Date();
-  var hour = (now.getUTCHours() + 8) % 24;
-  var minute = now.getUTCMinutes();
-  var second = now.getUTCSeconds();
-  var ms = (((endHour - hour) * 60 + (endMinute - minute)) * 60 + endSecond - second) * 1000;
-  var started = (endHour >= 0);
+  var hours = endHour - ((now.getUTCHours() + 8) % 24);
+  var minutes = endMinute - now.getUTCMinutes();
+  var seconds = endSecond - now.getUTCSeconds();
+  var ms = ((hours * 60 + minutes) * 60 + seconds) * 1000;
   updateTimer(ms, started);
-  // if (ms < 0) {
-  //   clearInterval(timerInterval);
-  // }
 }, 1000);
 
 
