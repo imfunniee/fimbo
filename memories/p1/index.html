@@ -10,15 +10,22 @@
     <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
     <script defer src="https://use.fontawesome.com/releases/v5.0.8/js/brands.js" integrity="sha384-sCI3dTBIJuqT6AwL++zH7qL8ZdKaHpxU43dDt9SyOzimtQ9eyRhkG3B7KMl6AO19" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
-    <link href="/css/gradients.min.css" rel="stylesheet">
     <link rel="stylesheet" href="../index.css">
 </head>
 <body>
+    <!-- 
+        loading animation
+    -->
     <div id="loading">
         <div id="spinner"></div>
     </div>
+
     <div class="background"></div>
     <div id="particles-js"></div>
+
+    <!-- 
+        animation after loading
+    -->
     <div id="box">
         <div class="box1 onlywide animated bounceOutLeft" style="animation-delay:1.7s;"></div>
         <div class="box2 onlywide animated bounceOutLeft" style="animation-delay:1.8s;"></div>
@@ -27,20 +34,31 @@
         <div class="box2 onlywide animated bounceOutRight" style="animation-delay:1.8s;"></div>
         <div class="box2 onlywide animated bounceOutRight" style="animation-delay:1.7s;"></div>
     </div>
+    
+    <!-- 
+        floor level naviagion buttons; if viewport not too narrow will show
+    -->
     <a id="about" onclick="showabout()" class="animated fadeIn" style="animation-delay:2.2s;">B1</a>
     <a id="work" onclick="showwork()" class="animated fadeIn" style="animation-delay:2.2s;">1F</a>
 
     <!--
-        主按鍵區
+        main page 
     -->
     <div id="middle" class="animated slideInDown" style="animation-delay:2.0s;">
         <h1>彼記-回憶大廳</h1>
         <h2>- 人際事業篇</h2>
         <p>點選您所在樓層～</p>
+        <!-- 
+            floor level naviagion buttons; if viewport too narrow will show 
+        -->
         <div id="menu">
             <a onclick="showabout()">B1</a>
             <a onclick="showwork()">1F</a>
         </div>
+
+        <!-- 
+            functional buttons; check location/ player guide/ back to first page
+        -->
         <table>
                 <tr>
                     <td class="animated zoomIn" style="animation-delay:2.2s;"><button class="btn_one">查看關卡位置</button></tr>
@@ -52,6 +70,10 @@
                     <td class="animated zoomIn" style="animation-delay:2.4s;"><button class="btn_one" onclick="location.href='../../index.html'" type="button">回彼記主頁</button></tr>
                 </tr>
         </table>
+
+        <!-- 
+            bottom of page; timer displays remaining time, footer also indicates player's current route icon
+        -->
         <div id="container_of_timer_footer">
             <div id="timer">
                 剩餘時間：<br>
@@ -88,12 +110,12 @@
                 <h2 style="color: white; text-shadow: 4px 4px 5px black;">選擇欲嘗試解鎖之影片：</h2>
                 <table>
                     <tr>
-                        <h2>辦公室(副堂)</h2>
+                        <h2>辦公室</h2>
                         <h3>-顏色密碼</h3>
                         <button class="btn_one" onclick="location.href='office/index.html'" type="button">點我進入解密畫面</button>
                     </tr>
                     <tr>
-                        <h2>球場(停車場)</h2>
+                        <h2>球場</h2>
                         <h3>-奇怪的排練時間表</h3>
                         <button class="btn_one" onclick="location.href='bsktbl(2)/index.html'" type="button">點我進入解密畫面</button>
                     </tr>
@@ -113,12 +135,12 @@
                 <h2 style="color: white; text-shadow: 4px 4px 5px black;">選擇欲嘗試解鎖之影片：</h2>
                 <table>
                     <tr>
-                        <h2>教室(20?)</h2>
+                        <h2>教室</h2>
                         <h3>-期考必考題(1)</h3>
                         <button class="btn_one" onclick="location.href='clssrm(1)/index.html'" type="button">點我進入解密畫面</button>
                     </tr>
                     <tr>
-                        <h2>教室(20?)</h2>
+                        <h2>教室</h2>
                         <h3>-期考必考題(2)</h3>
                         <button class="btn_one" onclick="location.href='clssrm(2)/index.html'" type="button">點我進入解密畫面</button>
                     </tr>
