@@ -479,20 +479,13 @@ body {
     position: absolute;
     top: 15px;
     right: 35px;
-    color: #ddd;
+    color: rgba(127, 255, 212, 0.856);
     font-size: 40px;
     font-weight: bold;
     transition: 0.3s;
 }
 
-.close:hover,
-.close:focus {
-    color: #bbb;
-    text-decoration: none;
-    cursor: pointer;
-}
-
-/* The left-right naviation buttons */
+/* The left-right navigation buttons */
 .modal-nav-button {
     position: absolute;
     color:rgba(127, 255, 212, 0.856);
@@ -506,6 +499,17 @@ body {
 }
 #right-modal-nav-button {
     right: 35px;
+}
+
+.close:hover,
+.close:focus,
+.modal-nav-button#left-modal-nav-button:hover,
+.modal-nav-button#right-modal-nav-button:hover,
+.modal-nav-button#left-modal-nav-button:focus,
+.modal-nav-button#right-modal-nav-button:focus {
+    color: rgba(64, 127, 106, 0.856);
+    text-decoration: none;
+    cursor: pointer;
 }
 
 /* 100% Image Width on Smaller Screens */
@@ -532,15 +536,32 @@ body {
     position: absolute;
     top: 15px;
     right: 35px;
-    color: #ddd;
+    color:rgba(127, 255, 212, 0.856);
     font-size: 40px;
     font-weight: bold;
     transition: 0.3s;
   }
-
+  .modal-nav-button {
+    position: absolute;
+    color:rgba(127, 255, 212, 0.856);
+    bottom: 15px;
+    /* color: #ddd; */
+    font-size: 30px;
+    transition: 0.3s;
+  }
+  #left-modal-nav-button {
+    left: 35px;
+  }
+  #right-modal-nav-button {
+    right: 35px;
+  }
   .close:hover,
-  .close:focus {
-    color: #bbb;
+  .close:focus,
+  .modal-nav-button#left-modal-nav-button:hover,
+  .modal-nav-button#right-modal-nav-button:hover,
+  .modal-nav-button#left-modal-nav-button:focus,
+  .modal-nav-button#right-modal-nav-button:focus{
+    color: rgba(64, 127, 106, 0.856);
     text-decoration: none;
     cursor: pointer;
   }
