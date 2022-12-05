@@ -492,6 +492,22 @@ body {
     cursor: pointer;
 }
 
+/* The left-right naviation buttons */
+.modal-nav-button {
+    position: absolute;
+    color:rgba(127, 255, 212, 0.856);
+    bottom: 15px;
+    /* color: #ddd; */
+    font-size: 30px;
+    transition: 0.3s;
+}
+#left-modal-nav-button {
+    left: 35px;
+}
+#right-modal-nav-button {
+    right: 35px;
+}
+
 /* 100% Image Width on Smaller Screens */
 @media only screen and (max-width: 700px) {
   .modal-content, #caption {
