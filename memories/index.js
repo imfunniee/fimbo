@@ -147,11 +147,20 @@ var timerInterval = setInterval(function() {
 var modal = document.getElementById("myModal");
 
 // Get the image and insert it inside the modal
-var img = document.getElementById("hiddenimage");
-var modalImg = document.getElementById("img01");
-img.onclick = function(){
+var imgbtn1 = document.getElementById("hiddenimage1");
+var imgbtn2 = document.getElementById("hiddenimage2");
+var modalImg1 = document.getElementById("img1");
+var modalImg2 = document.getElementById("img2");
+imgbtn1.onclick = function(){
   modal.style.display = "block";
-  modalImg.src = this.title;
+  modalImg1.src = this.title;
+  modalImg1.style.display = "block";
+  $("body").css({"overflow-y":"hidden"});
+}
+imgbtn2.onclick = function(){
+  modal.style.display = "block";
+  modalImg2.src = this.title;
+  modalImg2.style.display = "block";
   $("body").css({"overflow-y":"hidden"});
 }
 
@@ -161,5 +170,7 @@ var span = document.getElementsByClassName("close")[0];
 // When the user clicks on <span> (x), close the modal
 span.onclick = function() {
   modal.style.display = "none";
+  modalImg1.style.display = "none";
+  modalImg2.style.display = "none";
   $("body").css({"overflow-y":"auto"});
 }
