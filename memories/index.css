@@ -489,7 +489,7 @@ body {
 .modal-nav-button {
     position: fixed;
     color:rgba(127, 255, 212, 0.856);
-    bottom: 15px;
+    bottom: calc(100vh - 100% + 15px);
     /* color: #ddd; */
     font-size: 30px;
     transition: 0.3s;
@@ -544,7 +544,7 @@ body {
   .modal-nav-button {
     position: fixed;
     color:rgba(127, 255, 212, 0.856);
-    bottom: 15px;
+    bottom: calc(100vh - 100% + 15px);
     /* color: #ddd; */
     font-size: 30px;
     transition: 0.3s;
