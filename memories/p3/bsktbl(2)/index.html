@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml">
     <head>
-        <title>彼記-輸入畫面</title>
+        <title>彼記-奇怪的表-輸入畫面（1）</title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta name="robots" content="noindex, nofollow">
@@ -17,16 +17,21 @@
             <div id="spinner"></div>
         </div>
         <div class="protected" style="animation-delay:1.7s;">
+            <div class="protected__alert" data-id="alert">密碼錯誤。</div>
             <div class="protected__content">
-                <h1 class="protected__content__heading">奇怪的表</h1>
+                <h2 class="protected__content__heading">解鎖畫面</h2>
+                <h1 class="protected__content__heading">奇怪的校隊成員表</h1>
+                <p>
+                    請輸入：「蔡金何崔朱」對應之數字
+                </p>
+                <input class="protected__content__input" data-id="password" type="password" placeholder="輸入密碼以進入下一頁" pattern="[0-9]+"/>
                 <div class="protected__content__btns">
-                    <button type="button" class="protected__content__btn" onclick="location.href='next.html'">下一頁</button>
+                    <button data-id="button" type="button" class="protected__content__btn">提交</button>
                     <button type="button" class="protected__content__btn" onclick="location.href='../index.html'">回到大廳</button>
                 </div>
             </div>
         </div>
-        <script type="text/javascript" src="../../unlock.js"></script>
         <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/js-sha1/0.6.0/sha1.min.js"></script>
+        <script type="text/javascript" src="../../unlock.js"></script>
     </body>
-
 </html>
