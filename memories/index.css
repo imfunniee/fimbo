@@ -476,7 +476,7 @@ body {
 
 /* The Close Button */
 .close {
-    position: absolute;
+    position: fixed;
     top: 15px;
     right: 35px;
     color: rgba(127, 255, 212, 0.856);
@@ -487,7 +487,7 @@ body {
 
 /* The left-right navigation buttons */
 .modal-nav-button {
-    position: absolute;
+    position: fixed;
     color:rgba(127, 255, 212, 0.856);
     bottom: 15px;
     /* color: #ddd; */
@@ -533,7 +533,7 @@ body {
 
   /* The Close Button */
   .close {
-    position: absolute;
+    position: fixed;
     top: 15px;
     right: 35px;
     color:rgba(127, 255, 212, 0.856);
@@ -542,7 +542,7 @@ body {
     transition: 0.3s;
   }
   .modal-nav-button {
-    position: absolute;
+    position: fixed;
     color:rgba(127, 255, 212, 0.856);
     bottom: 15px;
     /* color: #ddd; */
