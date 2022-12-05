@@ -48,6 +48,7 @@
 |:--:| :--: | :--: | :--: |
 |背景|主頁背景|https://i.imgur.com/qEpnnqW.jpeg|`index.css`|
 ||回憶大廳背景|https://i.imgur.com/2TX6U1a.jpeg|`/memories/index.css`
+|關卡圖|位置表|https://i.imgur.com/DNT65IF.jpeg|`/memories/p*/index.html`|
 |指示卡|人際事業|https://i.imgur.com/xV952lh.png|`/memories/p1/index.html`|
 ||感情家庭|https://i.imgur.com/DzMwULl.png|`/memories/p2/index.html`|
 ||家庭信仰|https://i.imgur.com/zZHaH6K.png|`/memories/p3/index.html`|
