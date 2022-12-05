@@ -370,13 +370,13 @@ button:focus {
     height:5px;
 }
 ::-webkit-scrollbar-track {
-    background: #f1f1f1; 
+    background: #f1f1f1;
 }
 ::-webkit-scrollbar-thumb {
-    background: #000; 
+    background: #000;
 }
 ::-webkit-scrollbar-thumb:hover {
-    background: #555; 
+    background: #555;
 }
 @-webkit-keyframes Gradient {
 0% {background-position: 0% 50%}
