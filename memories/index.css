@@ -361,6 +361,19 @@ body {
     border-style: groove; */
 }
 
+.blink {
+    animation: 1s infinite normal blink-animation;
+    animation-timing-function: steps(3, start);
+    -webkit-animation: 1s infinite normal blink-animation;
+    -webkit-animation-timing-function: steps(3, start);
+}
+@keyframes blink-animation {
+    to { visibility: hidden; }
+}
+@-webkit-keyframes blink-animation {
+    to { visibility: hidden; }
+}
+
 /* end of styles for bottom of page */
 
 #particles-js {

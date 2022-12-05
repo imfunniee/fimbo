@@ -121,8 +121,10 @@ function updateTimer(ms, started) {
   // time up if past endtime
   if (ms > 0) {
     timer.innerHTML = formatTime(ms);
+    timer.classList.remove("blink");
   } else {
     timer.innerHTML = "Time's up !";
+    timer.classList.add("blink");
   }
 }
 
