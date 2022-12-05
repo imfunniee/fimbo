@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml">
     <head>
-        <title>彼記-輸入畫面</title>
+        <title>彼記-全家福-輸入畫面（1）</title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta name="robots" content="noindex, nofollow">
@@ -17,19 +17,24 @@
             <div id="spinner"></div>
         </div>
         <div class="protected" style="animation-delay:1.7s;">
+            <div class="protected__alert" data-id="alert">密碼錯誤。</div>
             <div class="protected__content">
+                <h2 class="protected__content__heading">解鎖畫面</h2>
                 <h1 class="protected__content__heading">全家福背後的祕密</h1>
                 <center>
                     <p>每張照片背後都有一段故事...</p>
                 </center>
+                <center>
+                    <img src="https://i.imgur.com/wctNKq3.png" alt="QuestionMark" width="250" height="250">
+                </center>
+                <input class="protected__content__input" data-id="password" type="password" placeholder="輸入密碼以進入下一頁" pattern="[0-9]+"/>
                 <div class="protected__content__btns">
-                    <button type="button" class="protected__content__btn" onclick="location.href='next.html'">下一頁</button>
+                    <button data-id="button" type="button" class="protected__content__btn">提交</button>
                     <button type="button" class="protected__content__btn" onclick="location.href='../index.html'">回到大廳</button>
                 </div>
             </div>
         </div>
-        <script type="text/javascript" src="../../unlock.js"></script>
         <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/js-sha1/0.6.0/sha1.min.js"></script>
+        <script type="text/javascript" src="../../unlock.js"></script>
     </body>
-
 </html>
