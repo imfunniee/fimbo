@@ -187,7 +187,7 @@ body {
     margin:0px 8px;
     text-align:center;
 }
-.social:hover { 
+.social:hover {
     cursor: pointer;
     color:rgb(255, 50, 50);
 }
@@ -374,20 +374,20 @@ body {
     height:5px;
 }
 ::-webkit-scrollbar-track {
-    background: #fff; 
+    background: #fff;
 }
 ::-webkit-scrollbar-thumb {
-    background: rgb(255, 50, 50); 
+    background: rgb(255, 50, 50);
 }
 ::-webkit-scrollbar-thumb:hover {
-    background: rgba(255, 50, 50,0.8); 
+    background: rgba(255, 50, 50,0.8);
 }
 ::selection {
     color: #fff;
     background: rgb(255, 50, 50);
 }
 
-@media (max-width: 400px){ 
+@media (max-width: 400px){
     #about {
         display:none;
     }
@@ -481,23 +481,23 @@ body {
 
 /* 100% Image Width on Smaller Screens */
 @media only screen and (max-width: 700px) {
-  .modal-content, #caption {  
+  .modal-content, #caption {
     -webkit-animation-name: zoom;
     -webkit-animation-duration: 0.6s;
     animation-name: zoom;
     animation-duration: 0.6s;
   }
-  
+
   @-webkit-keyframes zoom {
-    from {-webkit-transform:scale(0)} 
+    from {-webkit-transform:scale(0)}
     to {-webkit-transform:scale(1)}
   }
-  
+
   @keyframes zoom {
-    from {transform:scale(0)} 
+    from {transform:scale(0)}
     to {transform:scale(1)}
   }
-  
+
   /* The Close Button */
   .close {
     position: absolute;
@@ -508,7 +508,7 @@ body {
     font-weight: bold;
     transition: 0.3s;
   }
-  
+
   .close:hover,
   .close:focus {
     color: #bbb;

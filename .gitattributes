@@ -1,0 +1,9 @@
+* text eol=lf
+
+# Fonts
+*.eot   binary
+*.otf   binary diff=exif
+*.ttc   binary diff=exif
+*.ttf   binary diff=exif
+*.woff  binary
+*.woff2 binary
