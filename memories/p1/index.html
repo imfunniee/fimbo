@@ -10,6 +10,8 @@
     <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
     <script defer src="https://use.fontawesome.com/releases/v5.0.8/js/brands.js" integrity="sha384-sCI3dTBIJuqT6AwL++zH7qL8ZdKaHpxU43dDt9SyOzimtQ9eyRhkG3B7KMl6AO19" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"/>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
     <link rel="stylesheet" href="../index.css">
 </head>
 <body>
@@ -60,18 +62,16 @@
             functional buttons; check location/ player guide/ back to first page
         -->
         <table>
-                <tr>
-                    <td class="animated zoomIn" style="animation-delay:2.2s;"><button class="btn_one" id="hiddenimage1" title="https://i.imgur.com/DNT65IF.jpeg">查看關卡位置</button></tr>
-                </tr>
-                <tr>
-                    <td class="animated zoomIn" style="animation-delay:2.2s;"><button class="btn_one" id="hiddenimage2" title="https://i.imgur.com/xV952lh.png">查看玩家指引</button></tr>
-                </tr>
-                <tr>
-                    <td class="animated zoomIn" style="animation-delay:2.2s;"><button class="btn_one" id="hiddenimage3" title="https://i.imgur.com/Zuy8y9Z.jpeg">查看人物關係</button></tr>
-                </tr>
-                <tr>
-                    <td class="animated zoomIn" style="animation-delay:2.4s;"><button class="btn_one" onclick="location.href='../../index.html'" type="button">回彼記主頁</button></tr>
-                </tr>
+            <tr>
+                <td class="animated zoomIn" style="animation-delay:2.2s;">
+                    <button class="btn_one" id="hidden-image">查看玩家指引</button>
+                </td>
+            <tr>
+            </tr>
+                <td class="animated zoomIn" style="animation-delay:2.4s;">
+                    <button class="btn_one" onclick="location.href='../../index.html'" type="button">回彼記主頁</button></tr>
+                </td>
+            </tr>
         </table>
 
         <!-- 
@@ -95,18 +95,38 @@
         Modal image
     -->
     <div id="myModal" class="modal">
-        <div class="modal-content">
-            <div class="modal-nav-button" id="left-modal-nav-button"><i class="fas fa-arrow-circle-left"></i></div>
-            <div class="modal-nav-button" id="right-modal-nav-button"><i class="fas fa-arrow-circle-right"></i></div>
-            <div class="modal-cell">
-                <img class="modal-image" id="img1">
+        <div class="swiper">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <div class="image-container">
+                        <div class="image-container-wrapper">
+                            <div class="image-container-content">
+                                <img src="https://i.imgur.com/xV952lh.png" alt="玩家指引">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="image-container">
+                        <div class="image-container-wrapper">
+                            <div class="image-container-content">
+                                <img src="https://i.imgur.com/DNT65IF.jpeg" alt="關卡位置圖">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="image-container">
+                        <div class="image-container-wrapper">
+                            <div class="image-container-content">
+                                <img src="https://i.imgur.com/Zuy8y9Z.jpeg" alt="人物關係圖">
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
-            <div class="modal-cell">
-                <img class="modal-image" id="img2">
-            </div>
-            <div class="modal-cell">
-                <img class="modal-image" id="img3">
-            </div>
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div>
         </div>
         <span class="close">&times;</span>
     </div>
