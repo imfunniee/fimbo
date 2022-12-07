@@ -146,34 +146,34 @@ var timerInterval = setInterval(function() {
 }, 1000);
 
 
-// Get the modal
+// Modal image
 var modal = document.getElementById("myModal");
-
-// Get the image and insert it inside the modal
-var imgbtn1 = document.getElementById("hiddenimage1");
-var imgbtn2 = document.getElementById("hiddenimage2");
-var modalImg1 = document.getElementById("img1");
-var modalImg2 = document.getElementById("img2");
-imgbtn1.onclick = function(){
+var hiddenImgBtn = document.getElementById("hidden-image");
+hiddenImgBtn.onclick = function() {
   modal.style.display = "block";
-  modalImg1.src = this.title;
-  modalImg1.style.display = "block";
-  $("body").css({"overflow-y":"hidden"});
-}
-imgbtn2.onclick = function(){
-  modal.style.display = "block";
-  modalImg2.src = this.title;
-  modalImg2.style.display = "block";
   $("body").css({"overflow-y":"hidden"});
 }
 
-// Get the <span> element that closes the modal
-var span = document.getElementsByClassName("close")[0];
-
-// When the user clicks on <span> (x), close the modal
-span.onclick = function() {
+var closeModalBtn = document.getElementsByClassName("close")[0];
+closeModalBtn.onclick = function() {
   modal.style.display = "none";
-  modalImg1.style.display = "none";
-  modalImg2.style.display = "none";
   $("body").css({"overflow-y":"auto"});
 }
+
+// See swiperjs.com/swiper-api
+const swiper = new Swiper(".swiper", {
+  direction: "horizontal",
+  centeredSlides: true,
+  slidesPerView: 1,
+
+  // Navigation arrows
+  navigation: {
+    prevEl: ".swiper-button-prev",
+    nextEl: ".swiper-button-next",
+  },
+
+  // Keyboard navigation
+  keyboard: {
+    enabled: true,
+  },
+});
