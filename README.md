@@ -26,6 +26,8 @@
 
 * 如何在網頁中插入modal image：[How To Create Modal Images](https://www.w3schools.com/howto/howto_css_modal_images.asp) on W3Schools。
 
+* 讀取Google spreadsheet的內容：[opensheet](https://github.com/benborgers/opensheet)。直接使用Google Sheets API必須處理登入權限的問題，因此利用opensheet來讀取[spreadsheet](https://docs.google.com/spreadsheets/d/1BooGWE3g1zshKoVlAM_JjEI6VzbYtEYJyODVHDrQHWM/edit?usp=sharing)。
+
 此頁作者因為只學了一點點`html, css`，在程式碼上皆是以上面三個網站湊在一起，進行多次微調後試著組出一個符合教會活動需求的網站，因此對於這些程式碼本身的了解亦為有限。
 
 如果是在機構上出現的bug，可能就會需要回到這些範本去尋找調整方式。
