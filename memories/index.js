@@ -99,30 +99,12 @@ function reloadEndTime(callback) {
             console.info(`Response: ${request.responseText}`);
             return;
         }
-        request.onload = () => {
-            try {
-                const obj = JSON.parse(request.responseText);
-                var newEndHour = parseInt(obj[0]["hh"]);
-                var newEndMinute = parseInt(obj[0]["mm"]);
-                if (isNaN(newEndHour) || isNaN(newEndMinute)) {
-                    console.error(`Invalid numbers: ${newEndHour} ${newEndMinute}`);
-                    console.info(`Response: ${request.responseText}`);
-                    return;
-                }
-                endHour = newEndHour;
-                endMinute = newEndMinute;
-            } catch (error) {
-                console.error(error);
-                console.info(`Response: ${request.responseText}`);
-                return;
-            }
-            console.info(`Reloaded end time: ${endHour}:${endMinute}`)
-            endTimeLoaded = true;
-        };
-        request.open("GET", url, true);
-        request.timeout = 1000;
-        request.send(null);
+        console.info(`Reloaded end time: ${endHour}:${endMinute}`);
+        endTimeLoaded = true;
     }
+    request.open("GET", url, true);
+    request.timeout = 1000;
+    request.send(null);
 }
 
 reloadEndTime();
