@@ -3,16 +3,17 @@
 *:before {
     box-sizing: border-box;
 }
+
 body {
-    padding:0px;
-    margin:0px;
-    background:linear-gradient(0deg,rgba(0,0,0,0.5),rgb(0, 0, 0)),url("https://i.imgur.com/2TX6U1a.jpeg"), center center;
+    padding: 0px;
+    margin: 0px;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgb(0, 0, 0)), url("https://i.imgur.com/2TX6U1a.jpeg"), center center;
     backdrop-filter: blur(5px);
     background-size: cover;
-    width:100vw;
-    height:100vh;
-    overflow-x:hidden;
-    overflow-y:auto;
+    width: 100vw;
+    height: 100vh;
+    overflow-x: hidden;
+    overflow-y: auto;
     font-family: 'Josefin Sans', sans-serif;
 }
 
@@ -28,68 +29,76 @@ body {
     justify-content: center;
     flex-direction: column;
     align-items: center;
-    overflow:hidden;
+    overflow: hidden;
 }
+
 #spinner {
     animation: rotate 0.56s infinite linear;
-    width:60px;
-    height:60px;
-    border:6px solid #fff;
-    border-bottom:6px solid #000;
-    border-radius:50%;
-    margin:0;
+    width: 60px;
+    height: 60px;
+    border: 6px solid #fff;
+    border-bottom: 6px solid #000;
+    border-radius: 50%;
+    margin: 0;
 }
 
 #middle {
-    width:100%;
-    height:90vh;
-    display:grid;
-    overflow-y:auto;
-    flex-direction:column;
-    justify-content:center;
-    position:fixed;
-    top:0;
-    text-align:center;
-    z-index:1;
-    color:#fff;
-    padding-bottom:10vh;
+    width: 100%;
+    height: 90vh;
+    display: grid;
+    overflow-y: auto;
+    flex-direction: column;
+    justify-content: center;
+    position: fixed;
+    top: 0;
+    text-align: center;
+    z-index: 1;
+    color: #fff;
+    padding-bottom: 10vh;
 }
 
 #middle h1 {
-    color:rgb(255, 50, 50);
-    font-size:50px;
+    color: rgb(255, 50, 50);
+    font-size: 50px;
     text-shadow: 4px 4px 5px black;
     text-decoration: underline dotted;
 }
 
 @keyframes rotate {
-    0% {transform: rotate(0deg);}
-    100% {transform: rotate(360deg);}
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
 }
 
 #middle table {
-    width:60%;
-    margin:6vh auto;
+    width: 60%;
+    margin: 6vh auto;
 }
+
 #middle table tr td {
-    text-align:center;
+    text-align: center;
     margin: 4vh auto;
 }
 
 .btn_one {
-    font-size:18px;
+    font-size: 18px;
     font-family: 'Josefin Sans', sans-serif;
-    color:#fff;
-    background:transparent;
-    border:3px solid #fff;
-    padding:8px 40px;
-    border-radius:80px;
-    font-weight:bold;
-    margin:2vh 10px;
-    transition:0.4s ease-in-out;
+    color: #fff;
+    background: transparent;
+    border: 3px solid #fff;
+    padding: 8px 40px;
+    border-radius: 80px;
+    font-weight: bold;
+    margin: 2vh 10px;
+    transition: 0.4s ease-in-out;
 }
+
 .btn_one:hover {
-    cursor:pointer;
-    color:rgb(255, 50, 50);
-    background:#fff;
+    cursor: pointer;
+    color: rgb(255, 50, 50);
+    background: #fff;
 }

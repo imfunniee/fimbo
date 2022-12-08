@@ -1,35 +1,40 @@
 <!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml">
-    <head>
-        <title>彼記-輸入畫面</title>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <meta name="robots" content="noindex, nofollow">
-        <meta http-equiv="X-UA-Compatible" content="ie=edge">
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
-        <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
-        <link href="https://fonts.googleapis.com/css?family=Comfortaa:700" rel="stylesheet">
-        <link rel="stylesheet" href="../../unlock.css">
-    </head>
 
-    <body>
-        <div id="loading">
-            <div id="spinner"></div>
-        </div>
-        <div class="protected" style="animation-delay:1.7s;">
-            <div class="protected__alert" data-id="alert">密碼錯誤。</div>
-            <div class="protected__content">
-                <h2 class="protected__content__heading">解鎖畫面</h2>
-                <h1 class="protected__content__heading">日記裡的曾經</h1>
-                <p>提示：輸入格式為'yyyy/mm/dd'</p>
-                <input class="protected__content__input" data-id="password" type="password" placeholder="輸入密碼以解鎖影片" pattern="[0-9]{4}[/]{1}[0-9]{2}[/]{1}[0-9]{2}"/>
-                <div class="protected__content__btns">
-                    <button data-id="button" type="button" class="protected__content__btn">提交</button>
-                    <button type="button" class="protected__content__btn" onclick="location.href='../index.html'">回到大廳</button>
-                </div>
+<head>
+    <title>彼記-輸入畫面</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="robots" content="noindex, nofollow">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"
+        integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css?family=Comfortaa:700" rel="stylesheet">
+    <link rel="stylesheet" href="../../unlock.css">
+</head>
+
+<body>
+    <div id="loading">
+        <div id="spinner"></div>
+    </div>
+    <div class="protected" style="animation-delay:1.7s;">
+        <div class="protected__alert" data-id="alert">密碼錯誤。</div>
+        <div class="protected__content">
+            <h2 class="protected__content__heading">解鎖畫面</h2>
+            <h1 class="protected__content__heading">日記裡的曾經</h1>
+            <p>提示：輸入格式為'yyyy/mm/dd'</p>
+            <input class="protected__content__input" data-id="password" type="password" placeholder="輸入密碼以解鎖影片"
+                pattern="[0-9]{4}[/]{1}[0-9]{2}[/]{1}[0-9]{2}" />
+            <div class="protected__content__btns">
+                <button data-id="button" type="button" class="protected__content__btn">提交</button>
+                <button type="button" class="protected__content__btn"
+                    onclick="location.href='../index.html'">回到大廳</button>
             </div>
         </div>
-        <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/js-sha1/0.6.0/sha1.min.js"></script>
-        <script type="text/javascript" src="../../unlock.js"></script>
-    </body>
+    </div>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/js-sha1/0.6.0/sha1.min.js"></script>
+    <script type="text/javascript" src="../../unlock.js"></script>
+</body>
+
 </html>

@@ -1,14 +1,14 @@
 $(document).ready(function(){
-  $("a").on('click', function(event) {
-    if (this.hash !== "") {
-      event.preventDefault();
-      var hash = this.hash;
-      $('body,html').animate({
-      scrollTop: $(hash).offset().top
-      }, 1200, function(){
-      window.location.hash = hash;
-     });
-     }
+    $("a").on('click', function(event) {
+        if (this.hash !== "") {
+            event.preventDefault();
+            var hash = this.hash;
+            $('body,html').animate({
+            scrollTop: $(hash).offset().top
+            }, 1200, function(){
+                window.location.hash = hash;
+            });
+        }
     });
 });
 
@@ -18,7 +18,8 @@ window.onscroll = function(){
 if ((width >= 900)){
     if(document.body.scrollTop > 80 || document.documentElement.scrollTop > 80) {
         $("#middle").css("background-size","150% auto");
-    }else{
+    }
+    else {
         $("#middle").css("background-size","100% auto");
     }
 }
@@ -27,8 +28,8 @@ if ((width >= 900)){
 setTimeout(function(){
     $("#loading").addClass("animated fadeOut");
     setTimeout(function(){
-      $("#loading").removeClass("animated fadeOut");
-      $("#loading").css("display","none");
+        $("#loading").removeClass("animated fadeOut");
+        $("#loading").css("display","none");
     },800);
 },1450);
 
@@ -36,15 +37,16 @@ var coll = document.getElementsByClassName("collapsible");
 var i;
 
 for (i = 0; i < coll.length; i++) {
-  coll[i].addEventListener("click", function() {
-    this.classList.toggle("active");
-    var content = this.nextElementSibling;
-    if (content.style.display === "block") {
-      content.style.display = "none";
-    } else {
-      content.style.display = "block";
-    }
-  });
+    coll[i].addEventListener("click", function() {
+        this.classList.toggle("active");
+        var content = this.nextElementSibling;
+        if (content.style.display === "block") {
+        content.style.display = "none";
+        }
+        else {
+        content.style.display = "block";
+        }
+    });
 }
 
 
