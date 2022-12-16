@@ -26,18 +26,18 @@
 <iframe src="https://www.youtube.com/embed/*" title="YouTube video player" width="320" height="180" frameborder="20" allow="accelerometer; autoplay; encrypted-media; gyroscope; clipboard-write; picture-in-picture" allowfullscreen></iframe>
 ```
 
-|副標| 片名 | 網址 | 網址末碼 | 嵌入處 |
-| --: | --: | :-- | :-- | --: |
-|**感情**| 求婚| [連結](https://youtu.be/MFu2Ol3GkQk) | z49ig_rZEX4 | `/memories/p3/bsktbl(1)/6*/index.html`|
-|| 學弟| [連結](https://youtu.be/YdHsajGhycI) | YdHsajGhycI | `/memories/p2/ptroom(1)/0*/index.html`|
-||分手| [連結](https://youtu.be/Fay7nDqBAz0) | Fay7nDqBAz0 | `/memories/p3/bsktbl(2)/9*/a*/index.html`|
-|**信仰**|飯局| [連結](https://youtu.be/x98EJdPozNM) | x98EJdPozNM | `/memories/p1/bsktbl(2)/9*/a*/index.html`|
-||球局| [連結](https://youtu.be/vINGxG4uDw0) | vINGxG4uDw0 | `/memories/p3/bsktbl(0)/9*/index.html`|
-|**家庭**|外遇| [連結](https://youtu.be/I5N1JZuIk5w) | I5N1JZuIk5w | `/memories/p2/ptroom(2)/2*/c*/next.html`|
-||||| `/memories/p3/ptroom(2)/2*/c*/next.html`|
-|**校園**|紀錄| [連結](https://youtu.be/lGjfinymGMo) | lGjfinymGMo | `/memories/p1/clssrm(2)/c*/index.html`|
-||交惡| [連結](https://youtu.be/rV96IMrwMzE) | rV96IMrwMzE | `/memories/p1/clssrm(1)/9*/index.html`|
-|**職場**|職場| [連結](https://youtu.be/s3qBnWSEiLo) | s3qBnWSEiLo | `/memories/p1/office/c*/index.html`|
+|副標| 片名 | 網址 | 網址末碼 | 嵌入處 |狀態|
+| --: | --: | :-- | :-- | --: | -- |
+|**感情**| 求婚| [連結](https://youtu.be/WTcIycKuTfQ) | WTcIycKuTfQ | `/memories/p3/bsktbl(1)/6*/index.html`|已更新|
+|| 學弟| [連結](https://youtu.be/fqhHVCDqkDc) | fqhHVCDqkDc | `/memories/p2/ptroom(1)/0*/index.html`|已更新|
+||分手| [連結](https://youtu.be/tWKppedOYZI) | tWKppedOYZI | `/memories/p3/bsktbl(2)/9*/a*/index.html`|已更新|
+|**信仰**|飯局| [連結](https://youtu.be/-okAL7heRhM) | -okAL7heRhM | `/memories/p1/bsktbl(2)/9*/a*/index.html`|已更新|
+||球局| [連結](https://youtu.be/yBQwf94UQqw) | yBQwf94UQqw | `/memories/p3/bsktbl(0)/9*/index.html`|已更新|
+|**家庭**|外遇| [連結](https://youtu.be/Av8Xw-SDP2M) | Av8Xw-SDP2M | `/memories/p2/ptroom(2)/2*/c*/next.html`|已更新|
+||||Av8Xw-SDP2M| `/memories/p3/ptroom(2)/2*/c*/next.html`|已更新|
+|**校園**|紀錄| [連結](https://youtu.be/YCxa6ZKTYoE) | YCxa6ZKTYoE | `/memories/p1/clssrm(2)/c*/index.html`|已更新|
+||交惡| [連結](https://youtu.be/GNNg1kC-g4w) | GNNg1kC-g4w | `/memories/p1/clssrm(1)/9*/index.html`|已更新|
+|**職場**|職場| [連結](https://youtu.be/7tpWiehnwWs) | 7tpWiehnwWs | `/memories/p1/office/c*/index.html`|已更新|
 ||
 
 ## 🖼️ 圖片嵌入網址 <a name = "section_2"></a>
