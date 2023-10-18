@@ -82,6 +82,7 @@ body,html {
     flex-direction:column;
     transition:1s ease-in-out;
     padding-top:20vh;
+    align-items: center;
 }
 #tagline {
     font-size:50px;
