@@ -1,0 +1,4 @@
+1. Just Download Docker desktop for running Docker image 
+2. After Downloading come to directory start docker App 
+3. In terminal First of all give command docker login 
+4 . After this run docker run -it -p 6000:6000 fimbo_1 and it will run your webpage Even if you do not have css and html files . 
