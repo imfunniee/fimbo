@@ -11,4 +11,4 @@ COPY . /app
 EXPOSE 8000
 
 # Start a simple Python HTTP server to serve your files
-CMD ["python", "-m", "http.server", "6000"]
+CMD ["python", "-m", "http.server", "8000"]
